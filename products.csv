@@ -1,6 +1,8 @@
-product_name,price,img_url
-burger,40,
-apple,10,
-banana,30,
-t-shirt,45,
-phone,200,
+product_name,price,featured_img,product_img
+apple,10,,
+apple-green,20,,
+orange,5,,
+shirt,54,,
+phone,200,,
+chocolate,30,,
+Apple-Red-1KG-New,455,,
