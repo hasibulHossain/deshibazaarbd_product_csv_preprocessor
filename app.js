@@ -15,12 +15,12 @@ Promise.all([productsCSV, imageUrlCSV]).then(values => {
     const imagesUrl = values[1];
 
     products.forEach(product => {
-        const index = imagesUrl.findIndex(imgUrl => product.product_name === imgUrl.img_url.split('---')[0]);
+        const index = imagesUrl.findIndex(imgUrl => product.product_name.replace(/ /gi, '-') === imgUrl.img_url.replace(/ /gi, '-').split('---')[0]);
         
         const matchedPhotos = imagesUrl.filter(imgUrl => {
             
-            const imageUrl = imgUrl.img_url.split('---')[0];
-            const pn = product.product_name;
+            const imageUrl = imgUrl.img_url.replace(/ /gi, '-').split('---')[0];
+            const pn = product.product_name.replace(/ /gi, '-');
             
             if(pn === imageUrl || pn + '-1' === imageUrl || pn + '-2' === imageUrl || pn + '-3' === imageUrl || pn + '-4' === imageUrl || pn + '-5' === imageUrl) {
                 return true
@@ -31,8 +31,8 @@ Promise.all([productsCSV, imageUrlCSV]).then(values => {
             return item.img_url
         })
 
-        const featured_img = matchedPhotos.filter(img_url => product.product_name.includes(img_url.split('---')[0]));
-        const regular_img = matchedPhotos.filter(img_url => !product.product_name.includes(img_url.split('---')[0]));
+        const featured_img = matchedPhotos.filter(img_url => product.product_name.replace(/ /gi, '-').includes(img_url.replace(/ /gi, '-').split('---')[0]));
+        const regular_img = matchedPhotos.filter(img_url => !product.product_name.replace(/ /gi, '-').includes(img_url.replace(/ /gi, '-').split('---')[0]));
         
         
         if(index !== -1) {
