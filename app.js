@@ -64,11 +64,21 @@ app.post('/upload', (req, res, next) => {
         const imagesUrl = values[1];
     
         products.forEach((product, prodIndex) => {
-            const index = imagesUrl.findIndex(imgUrl => (product.name.replace(/ /gi, '-') + '-deshibazaarbd').toLowerCase() === imgUrl.img_url.replace(/'/gi, '').toLowerCase().split('---')[0]);
+            const index = imagesUrl.findIndex((imgUrl, index) => {
+                // console.log('product name => ', product.name)
+                // console.log('product name => ', imagesUrl[prodIndex].image_url)
+                if(product && product.name && (product.name.toLowerCase().replace(/-/gi, '').replace(/\s+/g, ' ').trim().replace(/ /gi, '-') + '-deshibazaarbd') === imgUrl.image_url.replace(/'/gi, '').toLowerCase().split('---')[0]) {
+                    console.log('found search')
+                    return true;
+                } else {
+                    console.log('found search asdf')
+                    return false;
+                }
+            });
             
             const matchedPhotos = imagesUrl.filter(imgUrl => {
                 
-                const imageUrl = imgUrl.img_url.replace(/'/gi, '').split('---')[0].toLowerCase();
+                const imageUrl = imgUrl.image_url.replace(/'/gi, '').split('---')[0].toLowerCase();
                 const pn = product.name.replace(/ /gi, '-').toLowerCase() + '-deshibazaarbd'; //pn - product name
                 
                 if(pn === imageUrl || pn + '-1' === imageUrl || pn + '-2' === imageUrl || pn + '-3' === imageUrl || pn + '-4' === imageUrl || pn + '-5' === imageUrl) {
@@ -77,19 +87,19 @@ app.post('/upload', (req, res, next) => {
                     return false
                 }
             }).map(item => {
-                return item.img_url.replace(/'/gi, '')
+                return item.image_url.replace(/'/gi, '')
             })
             
-            const featured_img = matchedPhotos.filter(img_url => {
-                return (product.name.toLowerCase().replace(/ /gi, '-') + '-deshibazaarbd').includes(img_url.toLowerCase().split('---')[0])
+            const featured_img = matchedPhotos.filter(image_url => {
+                return (product.name.toLowerCase().replace(/ /gi, '-') + '-deshibazaarbd').includes(image_url.toLowerCase().split('---')[0])
             });
-            const regular_img = matchedPhotos.filter(img_url => !product.name.replace(/ /gi, '-').includes(img_url.split('---')[0])); //@todo need to add regular_img in excel sheet
+            const regular_img = matchedPhotos.filter(image_url => !product.name.replace(/ /gi, '-').includes(image_url.split('---')[0])); //@todo need to add regular_img in excel sheet
             
             if(index !== -1) {
                 matched.push({...product, featured_image: featured_img.join(''), short_resolation_image: featured_img.join('')})
             } else {
-                console.log('unmatched image => ', imagesUrl[prodIndex])
-                unmatched.push({Product_Name: product.name, Image_Name: imagesUrl[prodIndex].img_url})
+                // console.log('unmatched image => ', imagesUrl[prodIndex])
+                unmatched.push({Product_Name: product.name, Image_Name: imagesUrl[prodIndex] && imagesUrl[prodIndex].img_url && imagesUrl[prodIndex].img_url ? imagesUrl[prodIndex].img_url : 'none'})
             }
     
         })
@@ -107,18 +117,16 @@ app.post('/upload', (req, res, next) => {
         const processedUnmatchedWrite = fs.writeFile(`./process-unmatched/${unmatchedProcessedFile}`, unmatchedCsv)
 
         Promise.all([processedMatchedWrite, processedUnmatchedWrite]).then(values => {
-            // .then(_ => console.log(`complete successfully: ${matched.length} products`)).catch(_ => console.log('something went wrong!'))
-            // .then(_ => console.log(`Have problem with ${unmatched.length} products`)).catch(_ => console.log('something went wrong!'))
             res.send(`
             <main style="font-size: 40px; text-align: center">
                 <h1>Download processed CSV files</h1>
                 <div style="margin-bottom: 20px">
-                    <p>complete successfully: ${matched.length} products</p>
+                    <p style="color: lime; font-weight: bold">complete successfully: ${matched.length} products</p>
                     <a href="/process-matched/${matchedProcessedFile}">Download Product Csv</a>
                 </div>
     
                 <div style="margin-bottom: 20px">
-                    <p>Have problem with ${unmatched.length} products</p>
+                    <p style="color: red; font-weight: bold">Have problem with ${unmatched.length} products</p>
                     <a href="/process-unmatched/${unmatchedProcessedFile}">Download Unmatched Csv</a>
                 </div>
                 
