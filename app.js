@@ -64,24 +64,62 @@ app.post('/upload', (req, res, next) => {
         const imagesUrl = values[1];
     
         products.forEach((product, prodIndex) => {
+            if(!product.name) return;
+
+            if(product.business === '') {
+                unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '1', unit: '0', brand: '0', category: '0', sub_category: '0', price: '0'})
+                console.log('from business check')
+                return;
+            } else if(product.unit === '') {
+                unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '1', brand: '0', category: '0', sub_category: '0', price: '0'})
+                console.log('from unit check')
+                return;
+            } else if(product.brand === '') {
+                unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '1', category: '0', sub_category: '0', price: '0'})
+                console.log('from brand check')
+                return;
+            } else if(product.category === '') {
+                unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '0', category: '1', sub_category: '0', price: '0'})
+                console.log('from category check')
+                return;
+            } else if(product.sub_category === '') {
+                unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '0', category: '0', sub_category: '1', price: '0'})
+                console.log('from sub category check')
+                return;
+            } else if(product.price === '') {
+                unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '0', category: '0', sub_category: '0', price: '1'})
+                console.log('from price check')
+                return;
+            }
+
+            // if(product.business === '' || product.unit === '' || product.brand === '' || product.category === '' || product.sub_category === '' || product.price === '' || product.featured_image === '') {
+            //     console.log('product name => ', product.name)
+            //     unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1'});
+            //     return;
+            // }
+
             const index = imagesUrl.findIndex((imgUrl, index) => {
-                // console.log('product name => ', product.name)
-                // console.log('product name => ', imagesUrl[prodIndex].image_url)
-                if(product && product.name && (product.name.toLowerCase().replace(/-/gi, '').replace(/\s+/g, ' ').trim().replace(/ /gi, '-') + '-deshibazaarbd') === imgUrl.image_url.replace(/'/gi, '').toLowerCase().split('---')[0]) {
-                    console.log('found search')
+                // console.log('product name => ', product.name.toLowerCase().replace(/-/gi, '').replace(/\s+/g, ' ').trim().replace(/ /gi, '-') + '-deshibazaarbd')
+                // console.log('Image url => ', imgUrl.image_url.replace(/'/gi, '').toLowerCase().split('---')[0])
+
+                if(processProductName(product.name) === processImgUrl(imgUrl.image_url)) {
                     return true;
                 } else {
-                    console.log('found search asdf')
                     return false;
                 }
             });
-            
+
             const matchedPhotos = imagesUrl.filter(imgUrl => {
                 
-                const imageUrl = imgUrl.image_url.replace(/'/gi, '').split('---')[0].toLowerCase();
-                const pn = product.name.replace(/ /gi, '-').toLowerCase() + '-deshibazaarbd'; //pn - product name
+                const imageUrl = processImgUrl(imgUrl.image_url).split('-');
+                imageUrl.splice(imageUrl.length - 1, 1); // form remove -deshibazaarbd from array
+                const pn = processProductName(product.name).split('-');
+                pn.splice(pn.length - 1, 1); // form remove -deshibazaarbd from array
                 
-                if(pn === imageUrl || pn + '-1' === imageUrl || pn + '-2' === imageUrl || pn + '-3' === imageUrl || pn + '-4' === imageUrl || pn + '-5' === imageUrl) {
+                const pnWithoutDeshibazaarbd = pn.join('-')
+                const imageUrlWithoutDeshibazaarbd = imageUrl.join('-')
+
+                if(pnWithoutDeshibazaarbd === imageUrlWithoutDeshibazaarbd || pnWithoutDeshibazaarbd + '-1' === imageUrlWithoutDeshibazaarbd || pnWithoutDeshibazaarbd + '-2' === imageUrlWithoutDeshibazaarbd || pnWithoutDeshibazaarbd + '-3' === imageUrlWithoutDeshibazaarbd || pnWithoutDeshibazaarbd + '-4' === imageUrlWithoutDeshibazaarbd || pnWithoutDeshibazaarbd + '-5' === imageUrlWithoutDeshibazaarbd) {
                     return true
                 } else {
                     return false
@@ -91,15 +129,22 @@ app.post('/upload', (req, res, next) => {
             })
             
             const featured_img = matchedPhotos.filter(image_url => {
-                return (product.name.toLowerCase().replace(/ /gi, '-') + '-deshibazaarbd').includes(image_url.toLowerCase().split('---')[0])
+                return processProductName(product.name).includes(processImgUrl(image_url))
             });
-            const regular_img = matchedPhotos.filter(image_url => !product.name.replace(/ /gi, '-').includes(image_url.split('---')[0])); //@todo need to add regular_img in excel sheet
+
+            const regular_img = matchedPhotos.filter(image_url => !processProductName(product.name).includes(processImgUrl(image_url))); //@todo need to add regular_img in excel sheet
             
+            let regular_imgObj = {};
+
+            regular_img.forEach((img, index) => {
+                regular_img[`image${index+1}`] = img
+            })
+
             if(index !== -1) {
-                matched.push({...product, featured_image: featured_img.join(''), short_resolation_image: featured_img.join('')})
+                matched.push({...product, featured_image: featured_img.join(''), short_resolation_image: featured_img.join(''), ...regular_img})
             } else {
                 // console.log('unmatched image => ', imagesUrl[prodIndex])
-                unmatched.push({Product_Name: product.name, Image_Name: imagesUrl[prodIndex] && imagesUrl[prodIndex].img_url && imagesUrl[prodIndex].img_url ? imagesUrl[prodIndex].img_url : 'none'})
+                unmatched.push({Product_Name: product.name, Image_Name: imagesUrl[prodIndex] && imagesUrl[prodIndex].img_url ? imagesUrl[prodIndex].img_url : 'not found', required_issue: '0', business: '0', unit: '0', brand: '0', category: '0', sub_category: '0', price: '0'})
             }
     
         })
@@ -108,10 +153,7 @@ app.post('/upload', (req, res, next) => {
         const unmatchedProcessedFile = 'Processed-unmatched-product--' + new Date().getTime() + '.csv';
     
         const matchedCsv = JSONtoCSV(matched, { fields: ['business','name','unit','per_unit_value','brand','category','sub_category','sub_category2','price','is_offer_enable','offer_price','featured_image','short_resolation_image','type','keywords','alert_quantity','sku','delivery_time','status','enable_stock','current_stock','description','shipping_charge','image1','image2','image3','image4','image5','image6'] });
-        const unmatchedCsv = JSONtoCSV(unmatched, { fields: ["Product_Name", "Image_Name"] });
-
-        // fs.writeFile(`./process-matched/${matchedProcessedFile}`, matchedCsv).then(_ => console.log(`complete successfully: ${matched.length} products`)).catch(_ => console.log('something went wrong!'))
-        // fs.writeFile(`./process-unmatched/${unmatchedProcessedFile}`, unmatchedCsv).then(_ => console.log(`Have problem with ${unmatched.length} products`)).catch(_ => console.log('something went wrong!'))
+        const unmatchedCsv = JSONtoCSV(unmatched, { fields: ["Product_Name", "Image_Name", "required_issue", "business", "unit", "brand", "category", "sub_category", "price"] });
 
         const processedMatchedWrite =  fs.writeFile(`./process-matched/${matchedProcessedFile}`, matchedCsv)
         const processedUnmatchedWrite = fs.writeFile(`./process-unmatched/${unmatchedProcessedFile}`, unmatchedCsv)
@@ -137,7 +179,14 @@ app.post('/upload', (req, res, next) => {
         `);
         })
     })
-})
+});
 
+function processProductName(pn) {
+    return pn.toLowerCase().replace(/-/gi, ' ').replace(/\s+/g, ' ').trim().replace(/ /gi, '-') + '-deshibazaarbd';
+};
+
+function processImgUrl(imgUrl) {
+    return imgUrl.replace(/'/gi, '').split('---')[0].toLowerCase()
+};
 
 app.listen(5050);
