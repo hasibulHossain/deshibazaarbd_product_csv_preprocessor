@@ -27,19 +27,19 @@ app.use('/process-unmatched', express.static(path.join(__dirname, 'process-unmat
 
 app.get('/',(req, res, next) => {
     res.send(`
-        <div style="display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 40px">
+        <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 40px">
             <h1>Process Your csv</h1>
             <div>
                 <form action="/upload" method="POST" enctype="multipart/form-data">
-                    <div style="margin-bottom: 15px">
+                    <div style="margin-bottom: 80px">
                         <label style="cursor: pointer;" for="product_file">Products Csv</label>
                         <input type="file" name="product_file" id="product_file" accept=".csv" required>
                     </div>
-                    <div style="margin-bottom: 15px">
+                    <div style="margin-bottom: 20px">
                         <label style="cursor: pointer;" for="image_file">Image Url Csv</label>
                         <input type="file" name="image_file" id="image_file" accept=".csv" required>
                     </div>
-                    <button type="submit">Upload</button>
+                    <button type="submit" style="padding: 20px 60px; font-size: 40px; cursor: pointer; margin-top: 50px" >Upload</button>
                 </form>
             </div>
         </div>
@@ -56,7 +56,8 @@ app.post('/upload', (req, res, next) => {
     const productsCSV = CSVtoJSON().fromFile(`./${productFile}`);
     const imageUrlCSV = CSVtoJSON().fromFile(`./${imageFile}`);
     
-    Promise.all([productsCSV, imageUrlCSV]).then(values => {
+    Promise.all([productsCSV, imageUrlCSV])
+    .then(values => {
         const matched = [];
         const unmatched = [];
     
@@ -68,40 +69,25 @@ app.post('/upload', (req, res, next) => {
 
             if(product.business === '') {
                 unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '1', unit: '0', brand: '0', category: '0', sub_category: '0', price: '0'})
-                console.log('from business check')
                 return;
             } else if(product.unit === '') {
                 unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '1', brand: '0', category: '0', sub_category: '0', price: '0'})
-                console.log('from unit check')
                 return;
             } else if(product.brand === '') {
                 unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '1', category: '0', sub_category: '0', price: '0'})
-                console.log('from brand check')
                 return;
             } else if(product.category === '') {
                 unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '0', category: '1', sub_category: '0', price: '0'})
-                console.log('from category check')
                 return;
             } else if(product.sub_category === '') {
                 unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '0', category: '0', sub_category: '1', price: '0'})
-                console.log('from sub category check')
                 return;
             } else if(product.price === '') {
                 unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1', business: '0', unit: '0', brand: '0', category: '0', sub_category: '0', price: '1'})
-                console.log('from price check')
                 return;
             }
 
-            // if(product.business === '' || product.unit === '' || product.brand === '' || product.category === '' || product.sub_category === '' || product.price === '' || product.featured_image === '') {
-            //     console.log('product name => ', product.name)
-            //     unmatched.push({Product_Name: product.name, Image_Name: 'none', required_issue: '1'});
-            //     return;
-            // }
-
             const index = imagesUrl.findIndex((imgUrl, index) => {
-                // console.log('product name => ', product.name.toLowerCase().replace(/-/gi, '').replace(/\s+/g, ' ').trim().replace(/ /gi, '-') + '-deshibazaarbd')
-                // console.log('Image url => ', imgUrl.image_url.replace(/'/gi, '').toLowerCase().split('---')[0])
-
                 if(processProductName(product.name) === processImgUrl(imgUrl.image_url)) {
                     return true;
                 } else {
@@ -110,7 +96,6 @@ app.post('/upload', (req, res, next) => {
             });
 
             const matchedPhotos = imagesUrl.filter(imgUrl => {
-                
                 const imageUrl = processImgUrl(imgUrl.image_url).split('-');
                 imageUrl.splice(imageUrl.length - 1, 1); // form remove -deshibazaarbd from array
                 const pn = processProductName(product.name).split('-');
@@ -137,13 +122,12 @@ app.post('/upload', (req, res, next) => {
             let regular_imgObj = {};
 
             regular_img.forEach((img, index) => {
-                regular_img[`image${index+1}`] = img
+                regular_imgObj[`image${index+1}`] = img
             })
 
             if(index !== -1) {
-                matched.push({...product, featured_image: featured_img.join(''), short_resolation_image: featured_img.join(''), ...regular_img})
+                matched.push({...product, featured_image: featured_img.join(''), short_resolation_image: featured_img.join(''), ...regular_imgObj})
             } else {
-                // console.log('unmatched image => ', imagesUrl[prodIndex])
                 unmatched.push({Product_Name: product.name, Image_Name: imagesUrl[prodIndex] && imagesUrl[prodIndex].img_url ? imagesUrl[prodIndex].img_url : 'not found', required_issue: '0', business: '0', unit: '0', brand: '0', category: '0', sub_category: '0', price: '0'})
             }
     
@@ -158,26 +142,51 @@ app.post('/upload', (req, res, next) => {
         const processedMatchedWrite =  fs.writeFile(`./process-matched/${matchedProcessedFile}`, matchedCsv)
         const processedUnmatchedWrite = fs.writeFile(`./process-unmatched/${unmatchedProcessedFile}`, unmatchedCsv)
 
-        Promise.all([processedMatchedWrite, processedUnmatchedWrite]).then(values => {
+        Promise.all([processedMatchedWrite, processedUnmatchedWrite])
+        .then(_ => {
             res.send(`
+                <main style="font-size: 40px; text-align: center">
+                    <h1>Download processed CSV files</h1>
+                    <div style="margin-bottom: 20px">
+                        <p style="color: lime; font-weight: bold">complete successfully: ${matched.length} products</p>
+                        <a href="/process-matched/${matchedProcessedFile}">Download Product Csv</a>
+                    </div>
+        
+                    <div style="margin-bottom: 20px">
+                        <p style="color: red; font-weight: bold">Have problem with ${unmatched.length} products</p>
+                        <a href="/process-unmatched/${unmatchedProcessedFile}">Download Unmatched Csv</a>
+                    </div>
+                    
+                    <div style="margin-bottom: 20px">
+                        <a href="/">Back to homepage</a>
+                    </div>
+                </main>
+            `);
+        })
+        .catch(err => {
+            console.log('file save err => ', err)
+            res.send(`
+                <main style="font-size: 40px; text-align: center">
+                    <h1>Something went wrong</h1>
+                    <p>File save catch block</p>
+                    <div style="margin-bottom: 20px">
+                        <a href="/">Back to homepage</a>
+                    </div>
+                </main>
+            `);
+        })
+    })
+    .catch(err => {
+        console.log('error => ', err)
+        res.send(`
             <main style="font-size: 40px; text-align: center">
-                <h1>Download processed CSV files</h1>
-                <div style="margin-bottom: 20px">
-                    <p style="color: lime; font-weight: bold">complete successfully: ${matched.length} products</p>
-                    <a href="/process-matched/${matchedProcessedFile}">Download Product Csv</a>
-                </div>
-    
-                <div style="margin-bottom: 20px">
-                    <p style="color: red; font-weight: bold">Have problem with ${unmatched.length} products</p>
-                    <a href="/process-unmatched/${unmatchedProcessedFile}">Download Unmatched Csv</a>
-                </div>
-                
+                <h1>Something went wrong</h1>
+                <p>Main catch block</p>
                 <div style="margin-bottom: 20px">
                     <a href="/">Back to homepage</a>
                 </div>
             </main>
         `);
-        })
     })
 });
 
