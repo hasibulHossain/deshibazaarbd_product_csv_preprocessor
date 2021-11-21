@@ -5,6 +5,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const multer = require('multer');
+const { v4: uuidv4 } = require('uuid');
 
 const app = express();
 
@@ -13,22 +14,26 @@ const fileStorage = multer.diskStorage({
         cb(null, 'uploads')
     },
     filename: (req, file, cb) => {
-        cb(null, new Date().getTime() + '--' + file.originalname.replace(/ /gi, '-'))
+        cb(null, uuidv4() + '--' + file.originalname.replace(/ /gi, '-'))
     }
 })
 
 const upload = multer({storage: fileStorage})
 
-app.use(upload.fields([{name: 'product_file', maxCount: 1}, {name: 'image_file', maxCount: 1}]));
+// app.use(upload.fields([{name: 'product_file', maxCount: 1}, {name: 'image_file', maxCount: 1}]));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 app.use('/process-matched', express.static(path.join(__dirname, 'process-matched')))
 app.use('/process-unmatched', express.static(path.join(__dirname, 'process-unmatched')))
+app.use('/filtered-products', express.static(path.join(__dirname, 'filtered-products')))
 
 app.get('/',(req, res, next) => {
     res.send(`
         <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 40px">
             <h1>Process Your csv</h1>
+            <div style="margin-bottom: 90px">
+                <a href="/filter">Filter products</a>
+            </div>
             <div>
                 <form action="/upload" method="POST" enctype="multipart/form-data">
                     <div style="margin-bottom: 80px">
@@ -46,9 +51,93 @@ app.get('/',(req, res, next) => {
     `)
 })
 
+app.get('/filter',(req, res, next) => {
+    res.send(`
+        <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 40px">
+            <h1>Filter Products CSV</h1>
+            <div>
+                <form action="/filter" method="POST" enctype="multipart/form-data">
+                    <div style="margin-bottom: 80px">
+                        <label style="cursor: pointer;" for="product_file">New Products CSV</label>
+                        <input type="file" name="product_file_new" id="product_file" accept=".csv" required>
+                    </div>
+                    <div style="margin-bottom: 20px">
+                        <label style="cursor: pointer;" for="image_file">Old Products CSV</label>
+                        <input type="file" name="product_file_old" id="image_file" accept=".csv" required>
+                    </div>
+                    <button type="submit" style="padding: 20px 60px; font-size: 40px; cursor: pointer; margin-top: 50px" >Upload</button>
+                </form>
+            </div>
+        </div>
+    `)
+})
+
+app.post('/filter', upload.fields([{name: 'product_file_new', maxCount: 1}, {name: 'product_file_old', maxCount: 1}]), (req, res, next) => {
+    const files = req.files
+    const productFileNew = files.product_file_new[0].path;
+    const productFileOld = files.product_file_old[0].path;
+
+    const productsNewCSV = CSVtoJSON().fromFile(`./${productFileNew}`);
+    const productsOldCSV = CSVtoJSON().fromFile(`./${productFileOld}`);
+
+    Promise.all([productsNewCSV, productsOldCSV])
+        .then(values => {
+            const productsNew = values[0]
+            const productsOld = values[1]
+
+            const mergedProds = productsNew.filter(prod => {
+
+                return !productsOld.some(oldProd => (oldProd.name === prod.name))
+                // for (let index = 0; index < productsOld.length; index++) {
+                //     const productOld = productsOld[index];
+                //     if(!prod.name.includes(productOld.name)) {
+                //         return true
+                //     } else {
+                //         return false
+                //     }
+                // }
+            })
+
+            const matchedProcessedFile = 'filtered-product--' + new Date().getTime() + '.csv';
+
+            const matchedCsv = JSONtoCSV(mergedProds, { fields: ['business','name','unit','per_unit_value','brand','category','sub_category','sub_category2','price','is_offer_enable','offer_price','featured_image','short_resolation_image','type','keywords','alert_quantity','sku','delivery_time','status','enable_stock','current_stock','description','shipping_charge','image1','image2','image3','image4','image5','image6'] });
+
+            const processedMatchedWrite =  fs.writeFile(`./filtered-products/${matchedProcessedFile}`, matchedCsv)
+
+            processedMatchedWrite
+            .then(_ => {
+                res.send(`
+                    <main style="font-size: 40px; text-align: center">
+                        <h1>Download processed CSV files</h1>
+                        <div style="margin-bottom: 20px">
+                            <p style="color: lime; font-weight: bold">complete successfully: ${mergedProds.length} products</p>
+                            <a href="/filtered-products/${matchedProcessedFile}">Download Product Csv</a>
+                        </div>
+                        
+                        <div style="margin-bottom: 20px">
+                            <a href="/">Back to homepage</a>
+                        </div>
+                    </main>
+                `);
+            })
+            .catch(err => {
+                console.log('file save err => ', err)
+                res.send(`
+                    <main style="font-size: 40px; text-align: center">
+                        <h1>Something went wrong</h1>
+                        <p>File save catch block</p>
+                        <div style="margin-bottom: 20px">
+                            <a href="/">Back to homepage</a>
+                        </div>
+                    </main>
+                `);
+            })
+        })
+});
 
 
-app.post('/upload', (req, res, next) => {
+
+app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: 'image_file', maxCount: 1}]), (req, res, next) => {
     const files = req.files
     const productFile = files.product_file[0].path;
     const imageFile = files.image_file[0].path;
@@ -128,7 +217,7 @@ app.post('/upload', (req, res, next) => {
             if(index !== -1) {
                 matched.push({...product, featured_image: featured_img.join(''), short_resolation_image: featured_img.join(''), ...regular_imgObj})
             } else {
-                unmatched.push({Product_Name: product.name, Image_Name: imagesUrl[prodIndex] && imagesUrl[prodIndex].img_url ? imagesUrl[prodIndex].img_url : 'not found', required_issue: '0', business: '0', unit: '0', brand: '0', category: '0', sub_category: '0', price: '0'})
+                unmatched.push({Product_Name: product.name, Image_Name: 'not found', required_issue: '0', business: '0', unit: '0', brand: '0', category: '0', sub_category: '0', price: '0'})
             }
     
         })
@@ -191,7 +280,7 @@ app.post('/upload', (req, res, next) => {
 });
 
 function processProductName(pn) {
-    return pn.toLowerCase().replace(/-/gi, ' ').replace(/\s+/g, ' ').trim().replace(/ /gi, '-') + '-deshibazaarbd';
+    return pn.toLowerCase().trim().replace(/–/g, '-').replace(/[$()/|&".,'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
 };
 
 function processImgUrl(imgUrl) {
