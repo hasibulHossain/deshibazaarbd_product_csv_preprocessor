@@ -14,7 +14,7 @@ const fileStorage = multer.diskStorage({
         cb(null, 'uploads')
     },
     filename: (req, file, cb) => {
-        cb(null, uuidv4() + '--' + file.originalname.replace(/ /gi, '-'))
+        cb(null, uuidv4() + '----' + file.originalname.replace(/ /gi, '-'))
     }
 })
 
@@ -34,6 +34,9 @@ app.get('/',(req, res, next) => {
             <div style="margin-bottom: 90px">
                 <a href="/filter">Filter products</a>
             </div>
+            <div style="margin-bottom: 90px">
+                <a href="/history">Old Sheets</a>
+            </div>
             <div>
                 <form action="/upload" method="POST" enctype="multipart/form-data">
                     <div style="margin-bottom: 80px">
@@ -49,6 +52,41 @@ app.get('/',(req, res, next) => {
             </div>
         </div>
     `)
+})
+
+app.get('/history', (req, res, next) => {
+    fs.readFile('./db/db.json', (err, data) => {
+        if(!err) {
+            res.send(`
+                <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 18px">
+                    <a href="/">Back to homepage</a>
+                    <div style="width: 70%">
+                        <h1>Products CSV</h1>
+                        <ol>
+                            ${JSON.parse(data)[0].data.reverse().map(item => `<li>
+                                <div>
+                                    <p>${new Date(item.createdAt).toString().split('GMT')[0]}</p>
+                                    <a href="/${item.path}">${item.path.split('----')[1]}</a>
+                                </div>
+                            </li>`)}
+                        </ol>
+                    </div>
+                    <div style="width: 70%">
+                        <h1>Image CSV</h1>
+                        <ol>
+                            ${JSON.parse(data)[1].data.reverse().map(item => `<li>
+                                <div>
+                                    <p>${new Date(item.createdAt).toString().split('GMT')[0]}</p>
+                                    <a href="/${item.path}">${item.path.split('----')[1]}</a>
+                                </div>
+                            </li>`)}
+                        </ol>
+                    </div>
+                    <a href="/">Back to homepage</a>
+                </div>
+            `)
+        }
+    })
 })
 
 app.get('/filter',(req, res, next) => {
@@ -67,6 +105,7 @@ app.get('/filter',(req, res, next) => {
                     </div>
                     <button type="submit" style="padding: 20px 60px; font-size: 40px; cursor: pointer; margin-top: 50px" >Upload</button>
                 </form>
+                <a href="/">Back to homepage</a>
             </div>
         </div>
     `)
@@ -251,6 +290,25 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
                     </div>
                 </main>
             `);
+
+            fs.readFile('./db/db.json')
+            .then(data => {
+                return JSON.parse(data)
+            })
+            .then(data => {
+                const cloneData = [...data]
+    
+                for (const item of cloneData) {
+                    if(item.name === 'products') {
+                        item.data.push({createdAt: new Date().getTime(), path: productFile})
+                    }
+      
+                    if(item.name === 'images_url') {
+                        item.data.push({createdAt: new Date().getTime(), path: imageFile})
+                    }
+                }
+                fs.writeFileSync('./db/db.json', JSON.stringify(cloneData))
+            })
         })
         .catch(err => {
             console.log('file save err => ', err)

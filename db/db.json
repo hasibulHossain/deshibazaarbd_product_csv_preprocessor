@@ -1,0 +1,14 @@
+[
+    {
+        "name":"products",
+        "data":[
+            {"createdAt":1637839419172,"path":"uploads/ab904b18-282c-4941-bacc-d7ccb210be0b----bulk-product--Sheet1.csv"},{"createdAt":1637840241740,"path":"uploads/e60eb674-677f-42a7-bc10-1972ed64bad4----bulk-product--Sheet1.csv"}
+        ]
+    },
+    {
+        "name":"images_url",
+        "data":[
+            {"createdAt":1637839419172,"path":"uploads/c8186e74-d561-42c4-9abf-9c4c557fb12d----img_urls-18-10-2021-18_46.csv"},{"createdAt":1637840241740,"path":"uploads/066d4977-52de-4758-a9a6-ec194e8338d8----img_urls-18-10-2021-18_46.csv"}
+        ]
+    }
+]
