@@ -22,6 +22,7 @@ const upload = multer({storage: fileStorage})
 
 // app.use(upload.fields([{name: 'product_file', maxCount: 1}, {name: 'image_file', maxCount: 1}]));
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 app.use('/process-matched', express.static(path.join(__dirname, 'process-matched')))
 app.use('/process-unmatched', express.static(path.join(__dirname, 'process-unmatched')))
@@ -31,14 +32,29 @@ app.get('/',(req, res, next) => {
     res.send(`
         <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 40px">
             <h1>Process Your csv</h1>
-            <div style="margin-bottom: 90px">
-                <a href="/filter">Filter products</a>
-            </div>
-            <div style="margin-bottom: 90px">
-                <a href="/history">Old Sheets</a>
+            <div style="display: flex">
+                <div style="margin-bottom: 90px; margin-right: 20px">
+                    <a href="/filter">Filter products</a>
+                </div>
+                <div style="margin-bottom: 90px; margin-right: 20px">
+                    <a href="/history">Old Sheets</a>
+                </div>
+                <div style="margin-bottom: 90px; margin-right: 20px">
+                    <a href="/track-uploads">Track uploaded products</a>
+                </div>
             </div>
             <div>
                 <form action="/upload" method="POST" enctype="multipart/form-data">
+                    <div style="font-size: 20px; display: flex">
+                        <div  style="margin-bottom: 80px; margin-right: 20px">
+                            <label style="cursor: pointer;" for="name">Your Name</label>
+                            <input style="padding: 10px" type="text" name="name" id="name" required>
+                        </div>
+                        <div  style="margin-bottom: 80px; margin-right: 20px">
+                            <label style="cursor: pointer;" for="sheet">Sheet No</label>
+                            <input style="padding: 10px" type="number" name="sheet" id="sheet" required>
+                        </div>
+                    </div>
                     <div style="margin-bottom: 80px">
                         <label style="cursor: pointer;" for="product_file">Products Csv</label>
                         <input type="file" name="product_file" id="product_file" accept=".csv" required>
@@ -83,6 +99,41 @@ app.get('/history', (req, res, next) => {
                         </ol>
                     </div>
                     <a href="/">Back to homepage</a>
+                </div>
+            `)
+        }
+    })
+})
+
+app.get('/track-uploads', (req, res, next) => {
+    fs.readFile('./db/tracker.json', (err, data) => {
+        if(!err) {
+            res.send(`
+                <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 18px">
+                    <a href="/">Back to homepage</a>
+                    <div style="width: 70%">
+                        <h1>Uploaded Products History</h1>
+                        <table style="width: 100%">
+                            <tr>
+                                <th style="text-align: left; padding: 10px 20px;">SL</th>
+                                <th style="text-align: left; padding: 10px 20px;">Date</th>
+                                <th style="text-align: left; padding: 10px 20px;">Name</th>
+                                <th style="text-align: left; padding: 10px 20px;">Sheet No</th>
+                                <th style="text-align: left; padding: 10px 20px;">Product count</th>
+                                <th style="text-align: left; padding: 10px 20px;">Uploaded product CSV</th>
+                            </tr>
+                            ${JSON.parse(data)[0].data.reverse().map((item, index) => `<tr>
+                                    <td style="padding: 10px 20px; text-align: left">${index + 1}</td>
+                                    <td style="padding: 10px 20px; text-align: left">${new Date(item.createdAt).toString().split('GMT')[0]}</td>
+                                    <td style="padding: 10px 20px; text-align: left">${item.name}</td>
+                                    <td style="padding: 10px 20px; text-align: left">${item.sheet}</td>
+                                    <td style="padding: 10px 20px; text-align: left">${item.product_count}</td>
+                                    <td style="padding: 10px 20px; text-align: left">
+                                        <a href="${item.path}">download sheet ${item.sheet}</a>
+                                    </td>
+                            </tr>`)}
+                        </table>
+                    </div>
                 </div>
             `)
         }
@@ -177,6 +228,8 @@ app.post('/filter', upload.fields([{name: 'product_file_new', maxCount: 1}, {nam
 
 
 app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: 'image_file', maxCount: 1}]), (req, res, next) => {
+    const name = req.body.name;
+    const sheet = req.body.sheet;
     const files = req.files
     const productFile = files.product_file[0].path;
     const imageFile = files.image_file[0].path;
@@ -307,8 +360,25 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
                         item.data.push({createdAt: new Date().getTime(), path: imageFile})
                     }
                 }
+
                 fs.writeFileSync('./db/db.json', JSON.stringify(cloneData))
             })
+
+            fs.readFile('./db/tracker.json')
+                .then(data => {
+                    return JSON.parse(data)
+                })
+                .then(data => {
+                    const cloneData = [...data]
+
+                    for (const item of cloneData) {
+                        if(item.name === 'products') {
+                            item.data.push({createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length})
+                        }
+                    }
+                    
+                    fs.writeFileSync('./db/tracker.json', JSON.stringify(cloneData))
+                })
         })
         .catch(err => {
             console.log('file save err => ', err)
@@ -338,11 +408,13 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
 });
 
 function processProductName(pn) {
-    return pn.toLowerCase().trim().replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
+    const productName = pn.toLowerCase().trim().replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
+    return productName;
 };
 
 function processImgUrl(imgUrl) {
-    return imgUrl.replace(/'/gi, '').split('---')[0].toLowerCase()
+    const imageUrl = imgUrl.replace(/'/gi, '').split('---')[0].toLowerCase()
+    return imageUrl;
 };
 
 app.listen(5050);
