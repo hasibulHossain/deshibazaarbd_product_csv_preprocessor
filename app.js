@@ -408,8 +408,8 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
 });
 
 function processProductName(pn) {
-    const productName = pn.toLowerCase().trim().replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
-    return productName;
+    const productName = pn.normalize("NFD").replace(/\p{Diacritic}/gu, "")
+    return productName.toLowerCase().trim().replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
 };
 
 function processImgUrl(imgUrl) {
