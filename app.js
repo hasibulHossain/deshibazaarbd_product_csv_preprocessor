@@ -76,27 +76,29 @@ app.get('/history', (req, res, next) => {
             res.send(`
                 <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 18px">
                     <a href="/">Back to homepage</a>
-                    <div style="width: 70%">
-                        <h1>Products CSV</h1>
-                        <ol>
-                            ${JSON.parse(data)[0].data.reverse().map(item => `<li>
-                                <div>
-                                    <p>${new Date(item.createdAt).toString().split('GMT')[0]}</p>
-                                    <a href="/${item.path}">${item.path.split('----')[1]}</a>
-                                </div>
-                            </li>`)}
-                        </ol>
-                    </div>
-                    <div style="width: 70%">
-                        <h1>Image CSV</h1>
-                        <ol>
-                            ${JSON.parse(data)[1].data.reverse().map(item => `<li>
-                                <div>
-                                    <p>${new Date(item.createdAt).toString().split('GMT')[0]}</p>
-                                    <a href="/${item.path}">${item.path.split('----')[1]}</a>
-                                </div>
-                            </li>`)}
-                        </ol>
+                    <div style="display: flex" >
+                        <div style="width: 70%">
+                            <h1>Products CSV</h1>
+                            <ol>
+                                ${JSON.parse(data)[0].data.reverse().map(item => `<li>
+                                    <div>
+                                        <p>${new Date(item.createdAt).toString().split('GMT')[0]}</p>
+                                        <a href="/${item.path}">${item.path.split('----')[1]}</a>
+                                    </div>
+                                </li>`)}
+                            </ol>
+                        </div>
+                        <div style="width: 70%">
+                            <h1>Image CSV</h1>
+                            <ol>
+                                ${JSON.parse(data)[1].data.reverse().map(item => `<li>
+                                    <div>
+                                        <p>${new Date(item.createdAt).toString().split('GMT')[0]}</p>
+                                        <a href="/${item.path}">${item.path.split('----')[1]}</a>
+                                    </div>
+                                </li>`)}
+                            </ol>
+                        </div>
                     </div>
                     <a href="/">Back to homepage</a>
                 </div>
@@ -108,33 +110,75 @@ app.get('/history', (req, res, next) => {
 app.get('/track-uploads', (req, res, next) => {
     fs.readFile('./db/tracker.json', (err, data) => {
         if(!err) {
+            const dataCSV   = JSON.parse(data)[0].data.reverse();
+
+            const sortedArr =  dataCSV.sort(function(a, b) {
+                var nameA = a.name.toUpperCase(); // ignore upper and lowercase
+                var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+
+                if (nameA < nameB) {
+                  return -1;
+                }
+                if (nameA > nameB) {
+                  return 1;
+                }
+
+                return 0;
+            });
+
+            const totalCount = sortedArr.reduce((accumulator, currentValue) => accumulator + +currentValue.product_count, 0)
+
             res.send(`
-                <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 18px">
-                    <a href="/">Back to homepage</a>
-                    <div style="width: 70%">
-                        <h1>Uploaded Products History</h1>
-                        <table style="width: 100%">
-                            <tr>
-                                <th style="text-align: left; padding: 10px 20px;">SL</th>
-                                <th style="text-align: left; padding: 10px 20px;">Date</th>
-                                <th style="text-align: left; padding: 10px 20px;">Name</th>
-                                <th style="text-align: left; padding: 10px 20px;">Sheet No</th>
-                                <th style="text-align: left; padding: 10px 20px;">Product count</th>
-                                <th style="text-align: left; padding: 10px 20px;">Uploaded product CSV</th>
-                            </tr>
-                            ${JSON.parse(data)[0].data.reverse().map((item, index) => `<tr>
-                                    <td style="padding: 10px 20px; text-align: left">${index + 1}</td>
-                                    <td style="padding: 10px 20px; text-align: left">${new Date(item.createdAt).toString().split('GMT')[0]}</td>
-                                    <td style="padding: 10px 20px; text-align: left">${item.name}</td>
-                                    <td style="padding: 10px 20px; text-align: left">${item.sheet}</td>
-                                    <td style="padding: 10px 20px; text-align: left">${item.product_count}</td>
-                                    <td style="padding: 10px 20px; text-align: left">
-                                        <a href="${item.path}">download sheet ${item.sheet}</a>
-                                    </td>
-                            </tr>`)}
-                        </table>
+                <html>
+                <head>
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                        }
+                        
+                        td, th {
+                            border: 1px solid #dddddd;
+                        }
+                        
+                        tr:nth-child(even) {
+                            background-color: #dddddd;
+                        }
+                    </style>    
+                </head>
+                
+                <body>
+                    <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 18px">
+                        <a href="/">Back to homepage</a>
+                        <div style="width: 70%">
+                            <h1>Uploaded Products History</h1>
+                            <table style="width: 100%">
+                                <tr>
+                                    <th style="text-align: left; padding: 10px 20px;">SL</th>
+                                    <th style="text-align: left; padding: 10px 20px;">Date</th>
+                                    <th style="text-align: left; padding: 10px 20px;">Name</th>
+                                    <th style="text-align: left; padding: 10px 20px;">Sheet No</th>
+                                    <th style="text-align: left; padding: 10px 20px;">Product count</th>
+                                    <th style="text-align: left; padding: 10px 20px;">Uploaded product CSV</th>
+                                </tr>
+                                ${sortedArr.map((item, index) => `<tr>
+                                        <td style="padding: 10px 20px; text-align: left">${index + 1}</td>
+                                        <td style="padding: 10px 20px; text-align: left">${new Date(item.createdAt).toString().split('GMT')[0]}</td>
+                                        <td style="padding: 10px 20px; text-align: left">${item.name}</td>
+                                        <td style="padding: 10px 20px; text-align: left">${item.sheet}</td>
+                                        <td style="padding: 10px 20px; text-align: left">${item.product_count}</td>
+                                        <td style="padding: 10px 20px; text-align: left">
+                                            <a href="${item.path}">download sheet ${item.sheet}</a>
+                                        </td>
+                                        </tr>`)
+                                }
+                            </table>
+                            <h1>
+                                Total Uploaded Product => ${totalCount}
+                            </h1>
+                        </div>
                     </div>
-                </div>
+                </body>
+                </html>
             `)
         }
     })
@@ -409,7 +453,7 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
 
 function processProductName(pn) {
     const productName = pn.normalize("NFD").replace(/\p{Diacritic}/gu, "")
-    return productName.toLowerCase().trim().replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
+    return productName.toLowerCase().trim().replace(/_/g, '-').replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
 };
 
 function processImgUrl(imgUrl) {
