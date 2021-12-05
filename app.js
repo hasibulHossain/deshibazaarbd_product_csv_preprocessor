@@ -113,8 +113,8 @@ app.get('/track-uploads', (req, res, next) => {
             const dataCSV   = JSON.parse(data)[0].data.reverse();
 
             const sortedArr =  dataCSV.sort(function(a, b) {
-                var nameA = a.name.toUpperCase(); // ignore upper and lowercase
-                var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+                var nameA = a.user_name.toUpperCase(); // ignore upper and lowercase
+                var nameB = b.user_name.toUpperCase(); // ignore upper and lowercase
 
                 if (nameA < nameB) {
                   return -1;
@@ -126,7 +126,7 @@ app.get('/track-uploads', (req, res, next) => {
                 return 0;
             });
 
-            const totalCount = sortedArr.reduce((accumulator, currentValue) => accumulator + +currentValue.product_count, 0)
+            const totalCount = sortedArr.reduce((accumulator, currentValue) => accumulator + +currentValue.total_count, 0)
 
             res.send(`
                 <html>
@@ -150,31 +150,43 @@ app.get('/track-uploads', (req, res, next) => {
                     <div style="font-family: sans-serif; display: flex; justify-content: center; flex-direction: column; align-items: center; font-size: 18px">
                         <a href="/">Back to homepage</a>
                         <div style="width: 70%">
-                            <h1>Uploaded Products History</h1>
-                            <table style="width: 100%">
-                                <tr>
-                                    <th style="text-align: left; padding: 10px 20px;">SL</th>
-                                    <th style="text-align: left; padding: 10px 20px;">Date</th>
-                                    <th style="text-align: left; padding: 10px 20px;">Name</th>
-                                    <th style="text-align: left; padding: 10px 20px;">Sheet No</th>
-                                    <th style="text-align: left; padding: 10px 20px;">Product count</th>
-                                    <th style="text-align: left; padding: 10px 20px;">Uploaded product CSV</th>
-                                </tr>
-                                ${sortedArr.map((item, index) => `<tr>
-                                        <td style="padding: 10px 20px; text-align: left">${index + 1}</td>
-                                        <td style="padding: 10px 20px; text-align: left">${new Date(item.createdAt).toString().split('GMT')[0]}</td>
-                                        <td style="padding: 10px 20px; text-align: left">${item.name}</td>
-                                        <td style="padding: 10px 20px; text-align: left">${item.sheet}</td>
-                                        <td style="padding: 10px 20px; text-align: left">${item.product_count}</td>
-                                        <td style="padding: 10px 20px; text-align: left">
-                                            <a href="${item.path}">download sheet ${item.sheet}</a>
-                                        </td>
-                                        </tr>`)
+                            <h1 style="text-align: center">Uploaded Products History</h1>
+                            <h3 style="text-align: center" >Total Uploaded Products ${totalCount}</h3>
+                            ${
+                                sortedArr.map((_) => `
+                                        <table style="width: 100%; margin-bottom: 30px">
+                                            <tr>
+                                                <th style="text-align: left; padding: 10px 20px;">SL</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Date</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Name</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Sheet No</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Product count</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Uploaded product CSV</th>
+                                            </tr>
+
+                                            ${_.data.map((item, index) => `<tr>
+                                                <td style="padding: 10px 20px; text-align: left">${index + 1}</td>
+                                                <td style="padding: 10px 20px; text-align: left">${new Date(item.createdAt).toString().split('GMT')[0]}</td>
+                                                <td style="padding: 10px 20px; text-align: left; text-transform: capitalize">${item.name}</td>
+                                                <td style="padding: 10px 20px; text-align: left">${item.sheet}</td>
+                                                <td style="padding: 10px 20px; text-align: left">${item.product_count}</td>
+                                                <td style="padding: 10px 20px; text-align: left">
+                                                    <a href="${item.path}">download sheet ${item.sheet}</a>
+                                                </td>
+                                                </tr>
+                                                `)}
+                                                <tr>
+                                                    <td style="padding: 10px 20px; text-align: left"></td>
+                                                    <td style="padding: 10px 20px; text-align: left"></td>
+                                                    <td style="padding: 10px 20px; text-align: left"></td>
+                                                    <td style="padding: 10px 20px; text-align: left; font-weight: bold">Total</td>
+                                                    <td style="padding: 10px 20px; text-align: left; font-weight: bold">${_.total_count}</td>
+                                                    <td style="padding: 10px 20px; text-align: left">
+                                                    </td>
+                                                </tr>
+                                        </table>
+                                    `)
                                 }
-                            </table>
-                            <h1>
-                                Total Uploaded Product => ${totalCount}
-                            </h1>
                         </div>
                     </div>
                 </body>
@@ -412,16 +424,37 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
                 .then(data => {
                     return JSON.parse(data)
                 })
-                .then(data => {
-                    const cloneData = [...data]
 
-                    for (const item of cloneData) {
-                        if(item.name === 'products') {
+                .then(data => {
+                    const cloneData = data[0].data;
+
+                    for (let index = 0; index < cloneData.length; index++) {
+                        const item = cloneData[index];
+
+                        if(item.user_name.toLowerCase() === name.toLowerCase()) {
+                            const totalCount = item.data.reduce((accumulator, currentValue) => accumulator + +currentValue.product_count, 0);
+                            item.total_count = totalCount + matched.length;
+    
                             item.data.push({createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length})
+                            alreadyFound = true;
+
+                            break;
                         }
                     }
+
+                    const allUser = cloneData.map(item => item.user_name)
+
+                    const foundIndex = allUser.findIndex(item => item.toLowerCase() === name.toLowerCase())
+
+                    if(foundIndex === -1) {
+                        cloneData.push({user_name: name, total_count: matched.length, data: [{createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length}]})
+                    }
                     
-                    fs.writeFileSync('./db/tracker.json', JSON.stringify(cloneData))
+
+                    // for (const item in cloneData) {
+                    // }
+                    
+                    fs.writeFileSync('./db/tracker.json', JSON.stringify([{name: 'products', data: cloneData}]))
                 })
         })
         .catch(err => {
