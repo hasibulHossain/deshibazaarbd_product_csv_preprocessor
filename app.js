@@ -173,6 +173,8 @@ app.get('/track-uploads', (req, res, next) => {
                                                 <th style="text-align: left; padding: 10px 20px;">Name</th>
                                                 <th style="text-align: left; padding: 10px 20px;">Sheet No</th>
                                                 <th style="text-align: left; padding: 10px 20px;">Product count</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Business</th>
+                                                <th style="text-align: left; padding: 10px 20px;">Brand</th>
                                                 <th style="text-align: left; padding: 10px 20px;">Uploaded product CSV</th>
                                             </tr>
 
@@ -182,6 +184,8 @@ app.get('/track-uploads', (req, res, next) => {
                                                 <td style="padding: 10px 20px; text-align: left; text-transform: capitalize">${item.name}</td>
                                                 <td style="padding: 10px 20px; text-align: left">${item.sheet}</td>
                                                 <td style="padding: 10px 20px; text-align: left">${item.product_count}</td>
+                                                <td style="padding: 10px 20px; text-align: left">${item.business.map(b => `${b.name}=${b.count} `)}</td>
+                                                <td style="padding: 10px 20px; text-align: left">${item.brand.map(b => `${b.name}=${b.count} `)}</td>
                                                 <td style="padding: 10px 20px; text-align: left">
                                                     <a href="${item.path}">download sheet ${item.sheet}</a>
                                                 </td>
@@ -193,6 +197,8 @@ app.get('/track-uploads', (req, res, next) => {
                                                     <td style="padding: 10px 20px; text-align: left"></td>
                                                     <td style="padding: 10px 20px; text-align: left; font-weight: bold">Total</td>
                                                     <td style="padding: 10px 20px; text-align: left; font-weight: bold">${_.total_count}</td>
+                                                    <td style="padding: 10px 20px; text-align: left; font-weight: bold"></td>
+                                                    <td style="padding: 10px 20px; text-align: left; font-weight: bold"></td>
                                                     <td style="padding: 10px 20px; text-align: left">
                                                     </td>
                                                 </tr>
@@ -443,11 +449,25 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
                     for (let index = 0; index < cloneData.length; index++) {
                         const item = cloneData[index];
 
+                        const businessNames = matched.map(item => item.business);
+                        const brandNames = matched.map(item => item.brand);
+                        
+                        const businessCount = {};
+                        const brandCount = {};
+
+                        businessNames.forEach(item => businessCount[item] = (businessCount[item] || 0) + 1);
+                        brandNames.forEach(item => brandCount[item] = (brandCount[item] || 0) + 1);
+
+                        const businessArr = Object.keys(businessCount).map(business => ({name: business, count: businessCount[business]}))
+                        const brandArr    = Object.keys(brandCount).map(brand => ({name: brand, count: brandCount[brand]}))
+
                         if(item.user_name.toLowerCase() === name.toLowerCase()) {
                             const totalCount = item.data.reduce((accumulator, currentValue) => accumulator + +currentValue.product_count, 0);
                             item.total_count = totalCount + matched.length;
-    
-                            item.data.push({createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length})
+
+
+
+                            item.data.push({createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length, business: businessArr, brand: brandArr})
                             alreadyFound = true;
 
                             break;
@@ -459,7 +479,7 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
                     const foundIndex = allUser.findIndex(item => item.toLowerCase() === name.toLowerCase())
 
                     if(foundIndex === -1) {
-                        cloneData.push({user_name: name, total_count: matched.length, data: [{createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length}]})
+                        cloneData.push({user_name: name, total_count: matched.length, data: [{createdAt: new Date().getTime(), path: `/process-matched/${matchedProcessedFile}`, name: name, sheet: sheet, product_count: matched.length, business: businessArr, brand: brandArr}]})
                     }
                     
 
@@ -502,8 +522,24 @@ function processProductName(pn) {
 };
 
 function processImgUrl(imgUrl) {
-    const imageUrl = imgUrl.replace(/'/gi, '').split('---')[0].toLowerCase()
+    if(count(imgUrl > 1)) {
+        console.log('webp found twice')
+        return 'have problem'
+    }
+
+    const imageUrl = imgUrl.replace(/'/gi, '').split('---')[0].toLowerCase();
+
+    if(imageUrl.length > 145) {
+        console.log('string length exceed')
+        return imageUrl + 'exceed'
+    }
+
     return imageUrl;
 };
+
+function count(str) {
+    const re = /.webp/g
+    return ((str || '').match(re) || []).length
+}
 
 app.listen(5050);
