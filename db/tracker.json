@@ -2,44 +2,21 @@
     {
         "name":"products",
         "data":[
-            { 
-                "user_name": "rudra",
-                "total_count": 129,
-                "data": [
-                    {"createdAt":1638622367144,"path":"/process-matched/Processed-product--1638622367138.csv","name":"Rudra","sheet":"03","product_count":69},
-                    {"createdAt":1638624022140,"path":"/process-matched/Processed-product--1638624022133.csv","name":"Rudra","sheet":"04","product_count":60}
-                ]
-            },
-            {
-                "user_name": "robin",
-                "total_count": 155,
-                "data": [
-                    {"createdAt":1638624730589,"path":"/process-matched/Processed-product--1638624730582.csv","name":"Robin","sheet":"01","product_count":155}
-                ]
-            },
-            {
-                "user_name": "sojib",
-                "total_count": 182,
-                "data": [
-                    {"createdAt":1638626825656,"path":"/process-matched/Processed-product--1638626825648.csv","name":"sojib","sheet":"01","product_count":138},
-                    {"createdAt":1638629253204,"path":"/process-matched/Processed-product--1638629253199.csv","name":"sojib","sheet":"02","product_count":44}
-                ]
-            },
-            {
-                "user_name": "shanzida",
-                "total_count": 97,
-                "data": [
-                    {"createdAt":1638628700968,"path":"/process-matched/Processed-product--1638628700960.csv","name":"Shanzida","sheet":"15","product_count":97}
-                ]
-            },
-            {
-                "user_name": "shusmita",
-                "total_count": 246,
-                "data": [
-                    {"createdAt":1638680769948,"path":"/process-matched/Processed-product--1638680769938.csv","name":"shusmita","sheet":"09","product_count":246}
-                ]
-            }
-            
+            {"user_name":"rudra","total_count":208,"data":[
+                {"createdAt":1638622367144,"path":"/process-matched/Processed-product--1638622367138.csv","name":"Rudra","sheet":"03", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":69},{"createdAt":1638624022140,"path":"/process-matched/Processed-product--1638624022133.csv","name":"Rudra","sheet":"04", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":60},{"createdAt":1638710518280,"path":"/process-matched/Processed-product--1638710518275.csv","name":"Rudra","sheet":"05", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":79}
+                ]},
+            {"user_name":"robin","total_count":373,"data":[
+                {"createdAt":1638624730589,"path":"/process-matched/Processed-product--1638624730582.csv","name":"Robin","sheet":"01", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":155},{"createdAt":1638705451942,"path":"/process-matched/Processed-product--1638705451934.csv","name":"Robin","sheet":"02", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":218}
+                ]},
+            {"user_name":"sojib","total_count":272,"data":[
+                {"createdAt":1638626825656,"path":"/process-matched/Processed-product--1638626825648.csv","name":"sojib","sheet":"01", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":138},{"createdAt":1638629253204,"path":"/process-matched/Processed-product--1638629253199.csv","name":"sojib","sheet":"02", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":44},{"createdAt":1638715496851,"path":"/process-matched/Processed-product--1638715496844.csv","name":"sojib","sheet":"03", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":90}
+                ]},
+            {"user_name":"shanzida","total_count":238,"data":[
+                {"createdAt":1638628700968,"path":"/process-matched/Processed-product--1638628700960.csv","name":"Shanzida","sheet":"15", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":97},{"createdAt":1638712339944,"path":"/process-matched/Processed-product--1638712339936.csv","name":"Shanzida","sheet":"16", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":141}
+                ]},
+            {"user_name":"shusmita","total_count":540,"data":[
+                {"createdAt":1638680769948,"path":"/process-matched/Processed-product--1638680769938.csv","name":"shusmita","sheet":"09", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":246},{"createdAt":1638705376140,"path":"/process-matched/Processed-product--1638705376133.csv","name":"Shusmita","sheet":"10", "business": [{"name": "test", "count": 0}], "brand": [{"name": "test", "count": 0}], "product_count":147}
+                ]}
         ]
     }
 ]

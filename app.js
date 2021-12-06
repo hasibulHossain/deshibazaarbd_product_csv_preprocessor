@@ -49,10 +49,12 @@ app.get('/',(req, res, next) => {
                         <div  style="margin-bottom: 80px; margin-right: 20px">
                             <label style="cursor: pointer;" for="name">Your Name</label>
                             <input style="padding: 10px" type="text" name="name" id="name" required>
+                            <div>Name Ex: John</div>
                         </div>
                         <div  style="margin-bottom: 80px; margin-right: 20px">
                             <label style="cursor: pointer;" for="sheet">Sheet No</label>
                             <input style="padding: 10px" type="number" name="sheet" id="sheet" required>
+                            <div>Sheet No Ex: 01, 02...</div>
                         </div>
                     </div>
                     <div style="margin-bottom: 80px">
@@ -125,6 +127,16 @@ app.get('/track-uploads', (req, res, next) => {
 
                 return 0;
             });
+
+            // const filteredArr = sortedArr.reduce((acc, current) => {
+            //     const x = acc.find(item => item.sheet === current.sheet);
+
+            //     if (!x) {
+            //       return acc.concat([current]);
+            //     } else {
+            //       return acc;
+            //     }
+            //   }, []);
 
             const totalCount = sortedArr.reduce((accumulator, currentValue) => accumulator + +currentValue.total_count, 0)
 
