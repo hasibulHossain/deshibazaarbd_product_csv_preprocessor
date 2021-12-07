@@ -153,7 +153,7 @@ app.get('/track-uploads', (req, res, next) => {
                         }
                         
                         tr:nth-child(even) {
-                            background-color: #dddddd;
+                            background-color: #f1f1f1;
                         }
                     </style>    
                 </head>
@@ -446,20 +446,22 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
                 .then(data => {
                     const cloneData = data[0].data;
 
+                    // sum total business, and brand 
+                    const businessNames = matched.map(item => item.business);
+                    const brandNames = matched.map(item => item.brand);
+                    
+                    const businessCount = {};
+                    const brandCount = {};
+
+                    businessNames.forEach(item => businessCount[item] = (businessCount[item] || 0) + 1);
+                    brandNames.forEach(item => brandCount[item] = (brandCount[item] || 0) + 1);
+
+                    const businessArr = Object.keys(businessCount).map(business => ({name: business, count: businessCount[business]}))
+                    const brandArr    = Object.keys(brandCount).map(brand => ({name: brand, count: brandCount[brand]}))
+
                     for (let index = 0; index < cloneData.length; index++) {
                         const item = cloneData[index];
 
-                        const businessNames = matched.map(item => item.business);
-                        const brandNames = matched.map(item => item.brand);
-                        
-                        const businessCount = {};
-                        const brandCount = {};
-
-                        businessNames.forEach(item => businessCount[item] = (businessCount[item] || 0) + 1);
-                        brandNames.forEach(item => brandCount[item] = (brandCount[item] || 0) + 1);
-
-                        const businessArr = Object.keys(businessCount).map(business => ({name: business, count: businessCount[business]}))
-                        const brandArr    = Object.keys(brandCount).map(brand => ({name: brand, count: brandCount[brand]}))
 
                         if(item.user_name.toLowerCase() === name.toLowerCase()) {
                             const totalCount = item.data.reduce((accumulator, currentValue) => accumulator + +currentValue.product_count, 0);
@@ -518,7 +520,7 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
 
 function processProductName(pn) {
     const productName = pn.normalize("NFD").replace(/\p{Diacritic}/gu, "")
-    return productName.toLowerCase().trim().replace(/_/g, '-').replace(/–/g, '-').replace(/[$()/|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
+    return productName.toLowerCase().trim().replace(/_/g, '-').replace(/–/g, '-').replace(/[$()/%|&".,°'*’‘+”=”]/g, '').replace(/-/gi, ' ').replace(/\s+/g, ' ').replace(/ /gi, '-') + '-deshibazaarbd';
 };
 
 function processImgUrl(imgUrl) {
