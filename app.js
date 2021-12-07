@@ -318,6 +318,49 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
     
         const products = values[0];
         const imagesUrl = values[1];
+
+        let productCsvModel = {
+            business: 'business',
+            name: 'name',
+            unit: 'unit',
+            per_unit_value: 'per_unit_value',
+            brand: 'brand',
+            category: 'category',
+            sub_category: 'sub_category',
+            sub_category2: 'sub_category2',
+            price: 'price',
+            is_offer_enable: 'is_offer_enable',
+            offer_price: 'offer_price',
+            featured_image: 'featured_image',
+            short_resolation_image: 'short_resolation_image',
+            type: 'type',
+            keywords: 'keywords',
+            alert_quantity: 'alert_quantity',
+            sku: 'sku',
+            delivery_time: 'delivery_time',
+            status: 'status',
+            enable_stock: 'enable_stock',
+            current_stock: 'current_stock',
+            description: 'description',
+            shipping_charge: 'shipping_charge',
+            image1: 'image1',
+            image2: 'image2',
+            image3: 'image3',
+            image4: 'image4',
+            image5: 'image5',
+            image6: 'image6'
+        }
+
+        const productObj = Object.keys(products[0]);
+        
+        console.log(productObj)
+
+        productObj.forEach(key => {
+            if(!productCsvModel[key]) {
+                throw new Error(key + ',csv')
+            }
+        })
+
     
         products.forEach((product, prodIndex) => {
             if(!product.name) return;
@@ -506,15 +549,26 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
     })
     .catch(err => {
         console.log('error => ', err)
-        res.send(`
+        if(err.message.split(',')[1] === 'csv') {
+            res.send(`
             <main style="font-size: 40px; text-align: center">
-                <h1>Something went wrong</h1>
-                <p>Main catch block</p>
+                <h2>Something wrong with product csv model, at "${err.message.split(',')[0]}"</h2>
                 <div style="margin-bottom: 20px">
                     <a href="/">Back to homepage</a>
                 </div>
             </main>
         `);
+        } else {
+            res.send(`
+                <main style="font-size: 40px; text-align: center">
+                    <h1>Something went wrong</h1>
+                    <p>Main catch block</p>
+                    <div style="margin-bottom: 20px">
+                        <a href="/">Back to homepage</a>
+                    </div>
+                </main>
+            `);
+        }
     })
 });
 
