@@ -329,6 +329,7 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
             sub_category: 'sub_category',
             sub_category2: 'sub_category2',
             price: 'price',
+            vendor_price: 'vendor_price',
             is_offer_enable: 'is_offer_enable',
             offer_price: 'offer_price',
             featured_image: 'featured_image',
@@ -337,6 +338,7 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
             keywords: 'keywords',
             alert_quantity: 'alert_quantity',
             sku: 'sku',
+            slug: 'slug',
             delivery_time: 'delivery_time',
             status: 'status',
             enable_stock: 'enable_stock',
@@ -352,11 +354,9 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
         }
 
         const productObj = Object.keys(products[0]);
-        
-        console.log(productObj)
 
         productObj.forEach(key => {
-            if(!productCsvModel[key]) {
+            if(!productCsvModel[key.toLowerCase()]) {
                 throw new Error(key + ',csv')
             }
         })
@@ -434,7 +434,7 @@ app.post('/upload', upload.fields([{name: 'product_file', maxCount: 1}, {name: '
         const matchedProcessedFile = 'Processed-product--' + new Date().getTime() + '.csv';
         const unmatchedProcessedFile = 'Processed-unmatched-product--' + new Date().getTime() + '.csv';
     
-        const matchedCsv = JSONtoCSV(matched, { fields: ['business','name','unit','per_unit_value','brand','category','sub_category','sub_category2','price','is_offer_enable','offer_price','featured_image','short_resolation_image','type','keywords','alert_quantity','sku','delivery_time','status','enable_stock','current_stock','description','shipping_charge','image1','image2','image3','image4','image5','image6'] });
+        const matchedCsv = JSONtoCSV(matched, { fields: ['business','name','unit','per_unit_value','brand','category','sub_category','sub_category2','vendor_price','price','is_offer_enable','offer_price','featured_image','short_resolation_image','type','keywords','alert_quantity','slug','sku','delivery_time','status','enable_stock','current_stock','description','shipping_charge','image1','image2','image3','image4','image5','image6'] });
         const unmatchedCsv = JSONtoCSV(unmatched, { fields: ["Product_Name", "Image_Name", "required_issue", "business", "unit", "brand", "category", "sub_category", "price"] });
 
         const processedMatchedWrite =  fs.writeFile(`./process-matched/${matchedProcessedFile}`, matchedCsv)
