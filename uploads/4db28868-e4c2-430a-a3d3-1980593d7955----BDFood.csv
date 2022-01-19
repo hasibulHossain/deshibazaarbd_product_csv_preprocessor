@@ -1,0 +1,401 @@
+business,name,unit,per_unit_value,brand,category,sub_category,sub_category2,price,is_offer_enable,offer_price,featured_image,short_resolation_image,type,keywords,alert_quantity,sku,delivery_time,status,enable_stock,current_stock,description,shipping_charge,image1,image2,image3,image4,image5,image6
+bdfoodslimited,BD Turmeric Powder 15gm,Piece,1,bd-food,groceries,cooking-items,spices,8.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Turmeric Powder 500gm
+Weight:15gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Turmeric Powder 50gm,Piece,1,bd-food,groceries,cooking-items,spices,28.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Turmeric Powder 500gm
+Weight:50gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Turmeric Powder 100gm,Piece,1,bd-food,groceries,cooking-items,spices,50.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Turmeric Powder 500gm
+Weight:100gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Turmeric Powder 200gm,Piece,1,bd-food,groceries,cooking-items,spices,95.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Turmeric Powder 500gm
+Weight:200gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Turmeric Powder 500gm,Piece,1,bd-food,groceries,cooking-items,spices,200.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Turmeric Powder 500gm
+Brand: BD Food
+Weight: 500gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Turmeric Powder1000gm,Piece,1,bd-food,groceries,cooking-items,spices,335.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Turmeric Powder 500gm
+Brand: BD Food
+Weight:1000gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Chilli Powder100gm,Piece,1,bd-food,groceries,cooking-items,spices,53.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Brand: BD FOOD
+Product Type: Chilli PowderPack 
+Size: 100gm
+Color: Same As Given Picture</p>",,,,,,,
+bdfoodslimited,BD Chilli Powder200gm,Piece,1,bd-food,groceries,cooking-items,spices,100.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Brand: BD FOOD
+Product Type: Chilli PowderPack 
+Size: 200 gm
+Color: Same As Given Picture</p>",,,,,,,
+bdfoodslimited,BD Chilli Powder500gm,Piece,1,bd-food,groceries,cooking-items,spices,245.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Brand: BD FOOD
+Product Type: Chilli PowderPack 
+Size: 500 gm
+Color: Same As Given Picture</p>",,,,,,,
+bdfoodslimited,BD Chilli Powder1000gm,Piece,1,bd-food,groceries,cooking-items,spices,470.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Brand: BD FOOD
+Product Type: Chilli PowderPack 
+Size: 1000 gm
+Color: Same As Given Picture</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder15gm,Piece,1,bd-food,groceries,cooking-items,spices,6.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Coriander Powder
+Brand: BD FOOD
+Size: 15gm</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder50gm,Piece,1,bd-food,groceries,cooking-items,spices,20.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Coriander Powder
+Brand: BD FOOD
+Size: 50gm</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder100gm,Piece,1,bd-food,groceries,cooking-items,spices,33.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Coriander Powder
+Brand: BD FOOD
+Size: 100gm</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder200gm,Piece,1,bd-food,groceries,cooking-items,spices,63.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Coriander Powder
+Brand: BD FOODi
+Size: 200gm</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder500gm,Piece,1,bd-food,groceries,cooking-items,spices,145.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Coriander Powder
+Brand: BD FOOD
+Size: 500gm</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder1000gm,Piece,1,bd-food,groceries,cooking-items,spices,250.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Coriander Powder
+Brand: BD FOOD
+Size: 1000gm</p>",,,,,,,
+bdfoodslimited,BD Cumin Powder50gm,Piece,1,bd-food,groceries,cooking-items,spices,43.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Cumin Powder
+Brand: BD Food
+Size: 50gm
+100% Adulteration free
+Natural Ingredients used
+Pure Coriander Powder
+Makes food tasty & delicious</p>
+",,,,,,,
+bdfoodslimited,BD Turmeric Powder (JAR)250gm,Piece,1,bd-food,groceries,cooking-items,spices,110.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,<p>Brand: BD FOODProduct Type: Turmeric Powder (JAR)Pack Size: 250gmColor: Same As Given Picture</p>,,,,,,,
+bdfoodslimited,BD Chilli Powder (JAR)250gm,Piece,1,bd-food,groceries,cooking-items,spices,130.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Chilli Powder
+Brand: BD Food
+Size: 250gm (Jar)
+100% Adulteration free
+Natural Ingredients used
+Pure Chilli Powders</p>",,,,,,,
+bdfoodslimited,BD Coriander Powder (JAR)250gm,Piece,1,bd-food,groceries,cooking-items,spices,98.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Coriander Powder (JAR)
+Brand: BD Food
+Size: 250gm (Jar)
+100% Adulteration free
+Natural Ingredients used
+Pure Chilli Powders</p>",,,,,,,
+bdfoodslimited,BD Cumin Powder (JAR)250gm,Piece,1,bd-food,groceries,cooking-items,spices,240.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,<p>Brand: BD FOODProduct Type: Cumin Powder (JAR)Pack Size: 250gmColor: Same As Given Picture</p>,,,,,,,
+bdfoodslimited,BD Cumin Powder200gm,Piece,1,bd-food,groceries,cooking-items,spices,155.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: BD Cumin Powder
+Brand: BD Foods
+Weight:200gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Curry Powder50gm,Piece,1,bd-food,groceries,cooking-items,spices,24.45,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type:  BD Curry powder 
+Brand: BD Foods
+Pack Size:50gm
+Premium Quality Product</p>
+",,,,,,,
+bdfoodslimited,BD Curry Powder100 gm,Piece,1,bd-food,groceries,cooking-items,spices,41.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type:  BD Curry powder 
+Brand: BD Foods
+Pack Size:100gm
+Premium Quality Product</p>",,,,,,,
+bdfoodslimited,BD Fish Curry50 gm,Piece,1,bd-food,groceries,cooking-items,spices,16.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Brand: BD FOOD
+Product Type:BD Fish Curry
+Size: 50 gm
+Color: Same As Given Picture</p>",,,,,,,
+bdfoodslimited,BD Farm Chicken50 gm,Piece,1,bd-food,groceries,cooking-items,spices,20.00,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Brand: BD FOOD
+Product Type:BD Farm Chicken
+Size: 50 gm
+Color: Same As Given Picture</p>",,,,,,,
+bdfoodslimited,BD Tandoori Chicken35gm,Piece,1,bd-food,groceries,cooking-items,spices,38.40,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Masala
+Brand: BD Food
+Flavor: Chicken Tandoori
+Size: 35 gm</p>",,,,,,,
+bdfoodslimited,BD Garam Masala Powder50gm,Piece,1,bd-food,groceries,cooking-items,spices,60.50,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Garam Masala Powder
+Brand: BD Food
+Natural & Fresh
+Size: 50 gm</p>
+",,,,,,,
+bdfoodslimited,BD Panchforn Granular50gm,Piece,1,bd-food,groceries,cooking-items,spices,18.25,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Panchforan Granular
+Brand: BD Food
+Natural & Fresh
+Size: 50 gm</p>",,,,,,,
+bdfoodslimited,BD Panchforn Powder50gm,Piece,1,bd-food,groceries,cooking-items,spices,17.60,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Panchforan Granular
+Brand: BD Food
+Natural & Fresh
+Size: 50 gm</p>",,,,,,,
+bdfoodslimited,BD Hallim Mix175gm,Piece,1,bd-food,groceries,cooking-items,spices,40.10,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,"<p>Product Type: Hallim Mix
+Brand: BD Food
+Size: 175gm
+100% Adulteration free
+Natural Ingredients used</p>",,,,,,,
+bdfoodslimited,BD Kheer Mix150gm,Piece,1,bd-food,groceries,cooking-items,spices,33.20,0,,,,,"groceries,cooking-items,spices",5,,10080,active,1,50,<p>Brand: BD FOODProduct Type: Kheer MixPack Size: 150 gmColor: Same As Given Picture</p>,,,,,,,
+bdfoodslimited,BD Puffed Rice(Muri)250gm,Piece,1,bd-food,groceries,cooking-items,rice,30.00,0,,,,,"groceries,cooking-items,rice",5,,10080,active,1,50,"<p>Ruchi Puffed Rice (Muri) - 250gm.
+Brand: BD FOOD 
+Product Type: Puffed Rice.
+Weight: 250gm.
+A good quality product.</p>",,,,,,,
+bdfoodslimited,BD Puffed Rice(Muri)500gm,Piece,1,bd-food,groceries,cooking-items,rice,55.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Ruchi Puffed Rice (Muri) - 250gm.
+Brand: BD FOOD 
+Product Type: Puffed Rice.
+Weight: 500gm.
+A good quality product.</p>",,,,,,,
+bdfoodslimited,BD Jhal Muri 30gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,8.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Jhal Muri
+Product Brand: BD FOOD
+Net Weight: 30gm
+Premium Quality
+Pure & Fresh</p>",,,,,,,
+bdfoodslimited,BD Chanachur140gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,35.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Chanachur
+Brand: BD Food
+Size: 140gm</p>",,,,,,,
+bdfoodslimited,BD Chanachur300gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,60.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Chanachur
+Brand: BD Food
+Size: 300gm</p>",,,,,,,
+bdfoodslimited,BD Hot Chanachur150gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,35.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Chanachur
+Brand: BD Food
+Flavor: Hot (Jhal)
+Size: 150gm</p>",,,,,,,
+bdfoodslimited,BD Hot Chanachur300gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,68.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Chanachur
+Brand: BD Food
+Flavor: Hot (Jhal)
+Size: 300gm</p>",,,,,,,
+bdfoodslimited,BD Bar-B-Q Chanachur150gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,35.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Hot Chanachur
+Brand: BD Food
+Size: 150gm
+Premium Quality
+Natural Ingredients used
+Unique taste
+Crispy
+Bar-B-Q Flavor</p>",,,,,,,
+bdfoodslimited,BD Bar-B-Q Chanachur300gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,70.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Hot Chanachur
+Brand: BD Food
+Size: 300gm
+Premium Quality
+Natural Ingredients used
+Unique taste
+Crispy
+Bar-B-Q Flavor</p>",,,,,,,
+bdfoodslimited,BD Fried Dal 25 gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,8.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type: Fried Dal
+Brand: BD Food
+Size: 25gm</p>",,,,,,,
+bdfoodslimited,BD Pried Peas 15 gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,5.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type:BD Pried Peas 
+Capacity: 20gm
+High Quality Product</p>",,,,,,,
+bdfoodslimited,BD Potato Crackers 25gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,10.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>Product Type:Potato Crackers 
+Capacity: 25gm
+High Quality Product</p>",,,,,,,
+bdfoodslimited,BD Chicken Crackers 20gm,Piece,1,bd-food,groceries,snacks-and-instant-food,chips-and-pretzels,10.00,0,,,,,"groceries,snacks-and-instant-food,chips-and-pretzels",5,,10080,active,1,50,"<p>BD FOOD CHIPS CHICKEN CRACKERS
+20 GM
+Brand – Bd Food</p>",,,,,,,
+bdfoodslimited,BD Lascha Shemai 200gm,Piece,1,bd-food,groceries,chips-and-pretzels,shemai-and-suji,40.00,0,,,,,"groceries,chips-and-pretzels,shemai-and-suji",5,,10080,active,1,50,"<p>Product Type: Pack of 24 BD Lascha Shemai
+Capacity: 200gm
+High Quality Product</p>",,,,,,,
+bdfoodslimited,BD Vermicelli Shemai 200gm,Piece,1,bd-food,groceries,chips-and-pretzels,shemai-and-suji,35.00,0,,,,,"groceries,chips-and-pretzels,shemai-and-suji",5,,10080,active,1,50,"<p>Product Type: BD Vermicelli Shemai
+Product Brand: BD FOOD
+Net Weight: 200gm
+Premium Quality
+Pure & Fresh</p>",,,,,,,
+bdfoodslimited,Double Toast Biscuits 20 gm,Piece,1,bd-food,groceries,snacks-and-instant-food,biscuits,5.00,0,,,,,"groceries,snacks-and-instant-food,biscuits",5,,10080,active,1,50,"<p>Product Type: Double Toast Biscuits
+Product Brand: BD FOOD
+Net Weight: 20gm
+Premium Quality
+Pure & Fresh</p>",,,,,,,
+bdfoodslimited,BD Noly Toast Biscuits 300gm,Piece,1,bd-food,groceries,snacks-and-instant-food,biscuits,50.00,0,,,,,"groceries,snacks-and-instant-food,biscuits",5,,10080,active,1,50,"<p>Product Type: Toast Biscuits
+Product Brand: BD FOOD
+Net Weight: 300gm
+Premium Quality
+Crispy and Tasty</p>",,,,,,,
+bdfoodslimited,BD Butter Toast Biscuits 300gm,Piece,1,bd-food,groceries,snacks-and-instant-food,biscuits,60.00,0,,,,,"groceries,snacks-and-instant-food,biscuits",5,,10080,active,1,50,"<p>D Food Butter Toast Biscuit 300gm.
+Brand: BD FOOD.
+Product Type: Butter Toast Biscuit.
+Weight: 300gm.
+Premium Quality Product.</p>",,,,,,,
+bdfoodslimited,BD Orange Drinks160ML,Piece,1,bd-food,groceries,beverages,juice,10.00,0,,,,,"groceries,beverages,juice",5,,10080,active,1,50,"<p>Per 160ml
+Orange Drinks (BD Food)
+Great taste</p>",,,,,,,
+bdfoodslimited,BD Lichi Drinks 160ML,Piece,1,bd-food,groceries,beverages,juice,10.00,0,,,,,"groceries,beverages,juice",5,,10080,active,1,50,"<p>Product Type: Lichi Drinks 
+Quantity: 160ml
+Brand: BD Food</p>",,,,,,,
+bdfoodslimited,BD Mango Pickle 200gm,Piece,1,bd-food,groceries,cooking-items,pickles,90.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type: Pickle
+Brand: BD Food
+Flavor: Mango
+Size: 200gm</p>",,,,,,,
+bdfoodslimited,BD Olive Pickle 200gm,Piece,1,bd-food,groceries,cooking-items,pickles,90.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type: Olive Pickle
+Brand: BD Food
+Flavor: Olive
+Size: 200gm</p>",,,,,,,
+bdfoodslimited,BD Mixed Pickle 200gm,Piece,1,bd-food,groceries,cooking-items,pickles,85.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Mixed Pickle
+Brand: BD Food
+Flavor: Mixed
+Size: 200gm</p>",,,,,,,
+bdfoodslimited,BD Garlic Pickle 200gm,Piece,1,bd-food,groceries,cooking-items,pickles,145.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Garlic Pickl
+Brand: BD Food
+Flavor: Mixed
+Size: 200gm</p>",,,,,,,
+bdfoodslimited,BD Mango Pickle 400gm,Piece,1,bd-food,groceries,cooking-items,pickles,150.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Mango Pickle
+Brand: BD Food
+Flavor: Mixed
+Size: 400gm</p>",,,,,,,
+bdfoodslimited,BD Olive Pickle 400 gm,Piece,1,bd-food,groceries,cooking-items,pickles,150.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Olive Pickle
+Brand: BD Food
+Flavor: Mixed
+Size: 400gm</p>",,,,,,,
+bdfoodslimited,BD Mixed Pickle 400gm,Piece,1,bd-food,groceries,cooking-items,pickles,150.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Mixed Pickle
+Brand: BD Food
+Flavor: Mixed
+Size: 400gm</p>",,,,,,,
+bdfoodslimited,BD Garlic Pickle 400 gm,Piece,1,bd-food,groceries,cooking-items,pickles,210.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Garlic Pickl
+Brand: BD Food
+Flavor: Mixed
+Size: 400gm</p>",,,,,,,
+bdfoodslimited,BD Tamarind Chutney 120 gm,Piece,1,bd-food,groceries,cooking-items,pickles,30.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:TamarindChutney
+Brand: BD Food
+Size: 120gm</p>m</p>",,,,,,,
+bdfoodslimited,BD Tamarind Chutney 500gm,Piece,1,bd-food,groceries,cooking-items,pickles,120.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type: Chutney
+Brand: BD Food
+Flavor: Tamarind
+Size: 500gm</p>",,,,,,,
+bdfoodslimited,BD Mango Chutney 120 gm,Piece,1,bd-food,groceries,cooking-items,pickles,30.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type: Manga Chutney
+Brand: BD Food
+Flavor: Manga
+Size:120gm</p>",,,,,,,
+bdfoodslimited,BD Boroi Chutney 120 gm,Piece,1,bd-food,groceries,cooking-items,pickles,30.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type: Boroi Chutney
+Brand: BD Food
+Size:120gm</p>",,,,,,,
+bdfoodslimited,BD Boroi Chutney 500 gm,Piece,1,bd-food,groceries,cooking-items,pickles,120.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type: Boroi Chutney.
+Brand: BD Food.
+Weight: 500gm.
+A premium quality product.</p>",,,,,,,
+bdfoodslimited,BD Olive Chutney120,Piece,1,bd-food,groceries,cooking-items,pickles,30.00,0,,,,,"groceries,cooking-items,pickles",5,,10080,active,1,50,"<p>Product Type:Olive Chutney
+Brand: BD Food.
+Weight:120gm.
+A premium quality product.</p>",,,,,,,
+bdfoodslimited,BD Tomato Sauce 950gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,195.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Tomato Sauce
+Brand: BD FOOD
+Net Weight: 950gm
+Hygiene
+Pure & Fresh
+Natural Ingredients used</p>",,,,,,,
+bdfoodslimited,BD Tomato Sauce 4500gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,585.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Tomato Sauce
+Brand: BD FOOD
+Net Weight:4500gm
+Hygiene
+Pure & Fresh
+Natural Ingredients used</p>",,,,,,,
+bdfoodslimited,BD Tomato Sauce 3000gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,410.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Tomato Sauce
+Brand: BD FOOD
+Net Weight: 3000gm</p>
+",,,,,,,
+bdfoodslimited,BD Hot Tomato Sauce 3000gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,395.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Hot Tomato Sauce
+Brand: BD FOOD
+Net Weight: 3000gm</p>",,,,,,,
+bdfoodslimited,BD Tomato Sauce 340 gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,95.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Sauce
+Brand: BD Food
+Flavor: Tomato
+Size: 340gm</p>
+
+",,,,,,,
+bdfoodslimited,BD Tamarind Sauce 380 gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,90.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type:Tamarind Sauce
+Brand: BD Food
+Flavor: Tomato
+Size: 380gm</p>",,,,,,,
+bdfoodslimited,BD Tomato Sauce Mini 120gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,36.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Tomato Sauce Mini 
+Brand: BD Food
+Size: 120gm</p>",,,,,,,
+bdfoodslimited,BD Chilli Sauce Mini 120gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,36.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type:Chilli Sauce Mini
+Brand: BD Food
+Size: 120gm</p>",,,,,,,
+bdfoodslimited,BD Chilli Sauce 1000gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,210.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Sauce
+Brand: BD Food
+Flavor: Hot Chilli
+Size: 1000gm</p>",,,,,,,
+bdfoodslimited,BD Chilli Sauce 4500gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,600.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: Sauce
+Brand: BD Food
+Flavor: Hot Chilli
+Size: 4500gm</p>",,,,,,,
+bdfoodslimited,BD Chilli Sauce 3000gm, Panding,1,bd-food,groceries,snacks-and-instant-food,sauces,420.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,,,,,,,,
+bdfoodslimited,BD Chilli Sauce 360 gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,115.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Chilli Sauce
+Brand: BD Food.
+Product Type: Hot chilli Sauce.
+Weight: 360gm.
+A premium quality product</p>",,,,,,,
+bdfoodslimited,BD Green Chilli Sauce 360gm,Piece,1,bd-food,groceries,snacks-and-instant-food,sauces,80.00,0,,,,,"groceries,snacks-and-instant-food,sauces",5,,10080,active,1,,"<p>Product Type: BD Green Chilli Sauce
+Product Brand: BD FOOD
+Net Weight: 360gm
+Hygiene
+Pure & Fresh
+Natural Ingredients used</p>",,,,,,,
+bdfoodslimited,BD Orange Jelly 250gm,Piece,1,bd-food,groceries,breakfast,jam-and-spreads,70.00,0,,,,,"groceries,breakfast,jam-and-spreads",5,,10080,active,1,,"<p>Product Type: Jelly
+Brand: BD Food
+Flavor: Orange
+Size: 250gm</p>",,,,,,,
+bdfoodslimited,BD Orange Jelly 500 gm,Piece,1,bd-food,groceries,breakfast,jam-and-spreads,125.00,0,,,,,"groceries,breakfast,jam-and-spreads",5,,10080,active,1,,"<p>Product Type: Jelly
+Brand: BD Food
+Flavor: Orange
+Size: 500gm</p>",,,,,,,
+bdfoodslimited,BD Mustard Oil 200ml,Piece,1,bd-food,groceries,cooking-items,special-ingredients,65.00,0,,,,,"groceries,cooking-items,special-ingredients",5,,10080,active,1,,"<p> Mustard Oil 
+Brand: BD Food.
+Product Type: Mustard Oil.
+Weight: 200ml.
+A premium quality product.</p>",,,,,,,
+bdfoodslimited,BD White Vinegar 300 ML,Piece,1,bd-food,groceries,cooking-items,special-ingredients,40.00,0,,,,,"groceries,cooking-items,special-ingredients",5,,10080,active,1,,"<p>Product Type: White Vinegar
+Product Brand: BD FOOD
+Net Weight: 300ml
+100% pure & natural</p>",,,,,,,
+bdfoodslimited,BD White Vinegar 650 ML,Piece,1,bd-food,groceries,cooking-items,special-ingredients,55.00,0,,,,,"groceries,cooking-items,special-ingredients",5,,10080,active,1,,"<p>Product Type: White Vinegar
+Product Brand: BD FOOD
+Net Weight: 650ml
+100% pure & natural</p>",,,,,,,
+bdfoodslimited,BD White Vinegar 750 ML,Piece,1,bd-food,groceries,cooking-items,special-ingredients,65.00,0,,,,,"groceries,cooking-items,special-ingredients",5,,10080,active,1,,"<p>Product Type: White Vinegar
+Product Brand: BD FOOD
+Net Weight: 700ml
+100% pure & natural</p>",,,,,,,
+bdfoodslimited,BD Soya Sauce 250ML,Piece,1,bd-food,groceries,cooking-items,sauces,70.00,0,,,,,"groceries,cooking-items,special-ingredients",5,,10080,active,1,,"<p>Product Type: Soya Sauce
+Product Brand: BD FOOD
+Net Weight: 250ml
+Black and Vicious Very dark in color</p>",,,,,,,
+bdfoodslimited,BD Soya Sauce 500ML,Piece,1,bd-food,groceries,cooking-items,sauces,110.00,0,,,,,"groceries,cooking-items,special-ingredients",5,,10080,active,1,,"<p>Product Type: Soya Sauce
+Product Brand: BD FOOD
+Net Weight: 500ml
+Black and Vicious Very dark in color</p>",,,,,,,
+bdfoodslimited,BD Ispaghuler Husk 22gm,Piece,1,bd-food,groceries,cooking-items,,32.00,0,,,,,"groceries,cooking-items",5,,10080,active,1,,"
+<p>Product Type: Isubgul Vushi
+Brand: BD Food
+Size: 22gm</p>",,,,,,,
+bdfoodslimited,BD Ispaghuler Husk 45gm,Piece,1,bd-food,groceries,cooking-items,,60.00,0,,,,,"groceries,cooking-items",5,,10080,active,1,,"
+<p>Product Type: Isubgul Vushi
+Brand: BD Food
+Size: 45gm</p>",,,,,,,
+bdfoodslimited,BD Ispaghuler Husk 80gm,Piece,1,bd-food,groceries,cooking-items,,95.00,0,,,,,"groceries,cooking-items",5,,10080,active,1,,"<p>Product Type: Isubgul Vushi
+Brand: BD Food
+Size: 80gm</p>",,,,,,,
+bdfoodslimited,BD Chinigura Rice 1KG,Piece,1,bd-food,groceries,cooking-items,rice,130.00,0,,,,,"groceries,cooking-items,rice",5,,10080,active,1,,"<p>Product Type:Chinigura Rice
+Brand: BD Food
+Weight: 1Kg</p>
+",,,,,,,
+bdfoodslimited,BD Chinigura Rice 2KG,Piece,1,bd-food,groceries,cooking-items,rice,240.00,0,,,,,"groceries,cooking-items,rice",5,,10080,active,1,,"<p>Product Type:Chinigura Rice
+Brand: BD Food
+Weight: 2Kg</p>
+",,,,,,,
+bdfoodslimited,BD Chinigura Rice 5KG,Piece,1,bd-food,groceries,cooking-items,rice,585.00,0,,,,,"groceries,cooking-items,rice",5,,10080,active,1,,"<p>Product Type:Chinigura Rice
+Brand: BD Food
+Weight: 5Kg</p>
+",,,,,,,
+bdfoodslimited,BD Mango Bar (30 Pcs) 420gm,Piece,1,bd-food,groceries,snacks-and-instant-food,candy-and-chocolate,210.00,0,,,,,"groceries,snacks-and-instant-food,candy-and-chocolate",5,,10080,active,1,,"<p>Product Type: Mango Bar
+Brand: BD Food
+Weight:(30 Pcs) 420gm</P>",,,,,,,
+bdfoodslimited,BD Mango Bar (10 Pcs) 140gm,Piece,1,bd-food,groceries,snacks-and-instant-food,candy-and-chocolate,70.00,0,,,,,"groceries,snacks-and-instant-food,candy-and-chocolate",5,,10080,active,1,,"<p>Product Type: Mango Bar
+Brand: BD Food
+Weight:(10 Pcs) 140gm</P>",,,,,,,
+bdfoodslimited,BD Dry Cake 150gm,Piece,1,bd-food,groceries,snacks-and-instant-food,biscuits,60.00,0,,,,,"groceries,snacks-and-instant-food,biscuits",5,,10080,active,1,,"<p>Product Type: BD Dry Cake
+Product Brand: BD FOOD
+Net Weight: 150gm
+Crispy and Tasty</P>
+",,,,,,,
+bdfoodslimited,BD Dry Cake 300gm,Piece,1,bd-food,groceries,snacks-and-instant-food,biscuits,120.00,0,,,,,"groceries,snacks-and-instant-food,biscuits",5,,10080,active,1,,"<p>Product Type: BD Dry Cake
+Product Brand: BD FOOD
+Net Weight: 300gm
+Crispy and Tasty</P>",,,,,,,
+bdfoodslimited,TOP - C (Orange) 125gm,Piece,1,bd-food,groceries,snacks-and-instant-food,,95.00,0,,,,,"groceries,snacks-and-instant-food",5,,10080,active,1,,"<p>Product Type: Top-C
+Product Brand: BD Food
+Product Unit: 125gm</P>",,,,,,,
+bdfoodslimited,TOP - C (Orange) 250gm,Piece,1,bd-food,groceries,snacks-and-instant-food,,165.00,0,,,,,"groceries,snacks-and-instant-food",5,,10080,active,1,,"<p>Product Type: Top-C
+Product Brand: BD Food
+Product Unit: 250gm</P>",,,,,,,
+bdfoodslimited,TOP - C (Mango) 125gm,Piece,1,bd-food,groceries,snacks-and-instant-food,,95.00,0,,,,,"groceries,snacks-and-instant-food",5,,10080,active,1,,"<p>Product Name: BD Food Top-C (Mango)
+Brand: BD Foods Limited 
+Net Weight: 125gm 
+A premium quality product</P>",,,,,,,
+bdfoodslimited,TOP - C (Mango) 250gm,Piece,1,bd-food,groceries,snacks-and-instant-food,,165.00,0,,,,,"groceries,snacks-and-instant-food",5,,10080,active,1,,"<p>Product Name: BD Food Top-C (Mango)
+Brand: BD Foods Limited 
+Net Weight: 250gm 
+A premium quality product</P>",,,,,,,

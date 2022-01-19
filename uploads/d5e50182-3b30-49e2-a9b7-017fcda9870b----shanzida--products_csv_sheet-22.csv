@@ -1,0 +1,905 @@
+business,name,unit,per_unit_value,brand,category,sub_category,sub_category2,vendor_price,price,is_offer_enable,offer_price,featured_image,short_resolation_image,type,keywords,alert_quantity,sku,delivery_time,current_stock,enable_stock,shipping_charge,status,description,image1,image2,image3,image4,image5,image6
+gqenterprise,Econo Ocean(Blue Body & Black Body),Piece,5,econo,groceries,stationery-and-craft,,43,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Pocket size refill pen with gripper,</li>
+  <li>Metal front nozzle,</li>
+  <li>Pharmaceutical companies and banks use this ball pen with their company&rsquo;s name.</li>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.10b7d2N3d2N3T2"">Ink Color- Black</li>
+</ul>",,,,,,
+gqenterprise,Econo Champ,Piece,10,econo,groceries,stationery-and-craft,,40,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Newly launched DF pen,</li>
+  <li>Translucent body and cap,</li>
+  <li>Available in different colors,</li>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.4357DsRhDsRhoA"">Widely used in Bangladesh,</li>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i1.4357DsRhDsRhoA"">5 taka/pcs, 10 pcs/packets</li>
+</ul>",,,,,,
+gqenterprise,Econo DX Teen,Piece,10,econo,groceries,stationery-and-craft,,40,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Econo DX Teen ball pen Black- 10 pcs.</li>
+  <li>Ink Color- Black.</li>
+  <li>Re-launching our most popular brand Econo DX.</li>
+  <li>Available in multi color.</li>
+  <li>Widely used in Bangladesh.</li>
+</ul>",,,,,,
+gqenterprise,Econo DX,Piece,10,econo,groceries,stationery-and-craft,,37,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Satisfaction Guaranteed: If you are not entirely satisfied with our product, you can either Exchange or receive a full refund.</li>
+  <li>Designed for Official use, commonly known as the &ldquo;Pocket pen&rdquo;. It&rsquo;s sole purpose is to give your writing experience in office and school a smooth feeling. Also gives you a professional look for it&rsquo;s outlook and suitable in Office desks.</li>
+  <li>Excellent Ink Quality gives you a high precision clear writing. Prevents your documents from fading away and so you can save it for years. Very good for school going children and very comfortable to write. A true ballpoint ink pen which will give you an excellent writing experience. This pen uses high quality imported ink, which brightens up your notes and preserve the note year after year.</li>
+  <li>0.5 mm Tungsten Carbide ball &amp; 7.5 mm tip length guarantees its longevity and ensures better and smooth control. Even after direct fall the tip writes smoothly, which works perfectly for the kids as they trends to break things often. The soft rubber grip makes it easy to hold the ink pen and you can work with the pen for a long time.</li>
+  <li>Refillable Transparent Barrel allows you to monitor the ink level. So no skip, no chance for unwanted ink drop. The ink capacity makes it write longer than the average top branded ink pens. Quick Dry Ink and no smear at all after a few seconds. Perfect for school, office and home use. Works well for left-handed as well.</li>
+</ul>",,,,,,
+gqenterprise,Econo Tech Point,Piece,10,econo,groceries,stationery-and-craft,,40,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Econo.</li>
+  <li>Product type: Pen.</li>
+  <li>Quantity: 10pcs.</li>
+  <li>Cap shape: Attractive cap.</li>
+  <li>Flexibility: Easy to grip.</li>
+  <li>Writing attribute: Smooth.</li>
+  <li>Ink color: Black.</li>
+  <li>Color: Multicolor.</li>
+</ul>",,,,,,
+gqenterprise,GQ Genius Ball Pen,Piece,10,gq-enterprise,groceries,stationery-and-craft,,40,50,0,,,,,,5,,,100,1,,active,"<ul type=""disc"">
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Brand : Econo </span><span data-mce-style=""font-size: 10.5pt;""><span data-mce-style=""mso-spacerun: yes;""> </span></span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Ink Color: Black &amp; Red</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Oil based high quality imported gel ink</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Quick Dry ink &amp; no smear brightness</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Cool strips makes the pen look sleek</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Directly filled body with attractive multicolor</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">7.5mm ball point tip</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">Packing : Poly</span></li>
+  <li data-mce-style=""color: #333333; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;""><span data-mce-style=""font-size: 12.0pt;"">100% best quality products </span></li>
+</ul>",,,,,,
+gqenterprise,Econo FX ,Piece,12,econo,groceries,stationery-and-craft,,45,60,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Econo.</li>
+  <li>Product type: Pen.</li>
+  <li>Quantity: 12pcs.</li>
+  <li>Cap shape: Attractive cap.</li>
+  <li>Flexibility: Easy to grip.</li>
+  <li>Writing attribute: Smooth.</li>
+  <li>Ink color: Black.</li>
+  <li>Body Color: Multicolor.</li>
+</ul>",,,,,,
+gqenterprise,Econo FX Plus,Piece,12,econo,groceries,stationery-and-craft,,45,60,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Refill pen,</li>
+  <li>Long lasting,</li>
+  <li>Suitable for screen printing of brand names,</li>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.509112BB12BBtf"">5 Taka/pcs. 12pcs/packets,</li>
+</ul>",,,,,,
+gqenterprise,Econo Student,Piece,10,econo,groceries,stationery-and-craft,,40,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Types: Econo Student Pen</li>
+  <li>Tip: 0.5mm tips</li>
+  <li>Ink Color: Black</li>
+  <li>Econo Student Pen-10pcs</li>
+  <li>Pocket size refill pen with gripper,</li>
+  <li>Metal front nozzle,</li>
+  <li>Pharmaceutical companies and banks use this ball pen with their company's name.</li>
+</ul>",,,,,,
+gqenterprise,Econo Full Time,Piece,6,econo,groceries,stationery-and-craft,,29,36,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Econo</li>
+  <li>Ink Color: Black</li>
+  <li>Writing Attribute: Smooth</li>
+  <li>Flexibility: Easy to Grip</li>
+</ul>",,,,,,
+gqenterprise,Econo Trendy Pen,Piece,10,econo,groceries,stationery-and-craft,,40,50,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Econo.</li>
+  <li>Product type: Pen.</li>
+  <li>Quantity: 10pcs.</li>
+  <li>Cap shape: Attractive cap.</li>
+  <li>Flexibility: Easy to grip.</li>
+  <li>Writing attribute: Smooth.</li>
+  <li>Ink color: Black.</li>
+  <li>Body Color: Multicolor.</li>
+  <li>Shiny white colored body.</li>
+  <li>Sleek, clean look.</li>
+  <li>Smooth writing.</li>
+</ul>",,,,,,
+gqenterprise,Econo Student XL,Piece,10,econo,groceries,stationery-and-craft,,48,60,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Econo.</li>
+  <li>Product type: Pen.</li>
+  <li>Quantity: 10pcs.</li>
+  <li>Cap shape: Attractive cap.</li>
+  <li>Flexibility: Easy to grip.</li>
+  <li>Writing attribute: Smooth.</li>
+  <li>Ink color: Black.</li>
+  <li>Body Color: Multicolor.</li>
+  <li>DF pen brand popular among the students for its extra-large body.</li>
+  <li>Colorful body, smooth &amp; ensures long time writing.</li>
+</ul>",,,,,,
+gqenterprise,Econo Castle Pencil Pen (Black body),Piece,20,econo,groceries,stationery-and-craft,,68,100,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Econo Castle Pencil Ball Pen (Black Body) – 20 Pieces.</li>
+  <li>Brand: Econo.</li>
+  <li>Product Type: Pen.</li>
+  <li>DF pen, gives an impression of a pencil.</li>
+  <li>Quantity: 20 Pieces.</li>
+  <li>Cap Shape: Attractive cap.</li>
+  <li>Flexibility: Easy to grip.</li>
+  <li>Writing Attribute: Smooth.</li>
+  <li>Ink Color: Black.</li>
+  <li>Body Color: Multicolor.</li>
+</ul>",,,,,,
+gqenterprise,Econo Castle Coler Pen  (Multi body),Piece,20,econo,groceries,stationery-and-craft,,68,100,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Econo.</li>
+  <li>Product type: Pen.</li>
+  <li>Quantity: 20pcs.</li>
+  <li>Cap shape: Attractive cap.</li>
+  <li>Flexibility: Easy to grip.</li>
+  <li>Writing attribute: Smooth.</li>
+  <li>Ink color: Black, Blue, Red.</li>
+  <li>Body Color: Multicolor.</li>
+</ul>",,,,,,
+gqenterprise,Econo Officemate,Piece,10,econo,groceries,stationery-and-craft,,30,40,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Light weight refill pen</li>
+  <li>Yellow body with black colored cap and end plug</li>
+  <li> 0.8mm Swiss tip, made of brass for thick writing</li>
+  <li>Popular in filling the OMR forms in different exams and club games</li>
+  <li>Long lasting</li>
+  <li>Econo Office Mate Pen</li>
+  <li>Product type: Pen</li>
+  <li>Quantity: 10 pieces</li>
+</ul>",,,,,,
+gqenterprise,Econo 786 Ball Pen,Piece,10,econo,groceries,stationery-and-craft,,48,60,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Econo 786 Ballpen Multicolor Body - (10 Pieces).</li>
+  <li>Excellent design.</li>
+  <li>Attractive Body Color.</li>
+  <li>Available body color in Black, Blue, Green, red.</li>
+  <li>Smooth handwriting.</li>
+  <li>Oil-based High Quality imported gel ink.</li>
+  <li>Super-soft grip for ultra-comfort.</li>
+  <li>TC Ball: 0.7 mm.</li>
+  <li>Tip: 7.5 mm.</li>
+</ul>",,,,,,
+gqenterprise,Krispy Curl Chips - 10 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,4, 5,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Types: Curl Chips</li>
+  <li>Weight:10gm</li>
+  <li>Imported Corn Grits and Spices</li>
+  <li>Popular among the students for adda and as tea time snacks.</li>
+</ul>",,,,,,
+gqenterprise,Krispy Curl Chips - 20 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,8, 10,0,,,,,,5,,,100,1,,active,"""<ul>
+  <li>Product Types: Curl Chips</li>
+  <li>Weight:20gm</li>
+  <li>Imported Corn Grits and Spices</li>
+  <li>Popular among the students for adda and as tea time snacks.</li>
+</ul>""",,,,,,
+gqenterprise,Krispy Thinos Chips- 20 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,8, 10,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Types:Krispy Thinos Chips</li>
+  <li>Weight:20gm</li>
+  <li>Imported Corn Grits and Classic flavour</li>
+  <li>Soft spicy and classic flavor crispy Snacks.</li>
+  <li>Most popular among the students</li>
+</ul>",,,,,,
+gqenterprise,Krispy Hot Fingers Chips- 20 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,8, 10,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Type: Chips.</li>
+  <li>Weight: 20gm.</li>
+  <li>Corn Grits and Spices.</li>
+  <li>Hot and spicy for the masala lovers.</li>
+</ul>",,,,,,
+gqenterprise,Krispy Potato Chips - 20 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,8, 10,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Types:Krispy Potato Chips</li>
+  <li>Weight:20gm</li>
+  <li>Potato and Spices</li>
+  <li>Hot and spicy for the masala lovers</li>
+</ul>",,,,,,
+gqenterprise,Krispy Motor Vaja - 15 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,4, 5,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Types:Motor Vaja</li>
+  <li>Weight:15gm</li>
+  <li>Fresh Green Peas and Imported Spices,</li>
+  <li>Crispy fried peas, with tangy flavor</li>
+  <li>Popular as a snack</li>
+</ul>",,,,,,
+gqenterprise,Krispy Fried Mung Dal - 10 gm,Piece,1,krispy-curl,groceries,snacks-and-instant-food,chips-and-pretzels,4, 5,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Product Types:Krispy Fried Mung Dal</li>
+  <li>Weight:10gm</li>
+  <li>Imported Raw Material sand Spices</li>
+  <li>Popular among the students for tiffin and tea time snack</li>
+  <li>Very tasty and yummy</li>
+</ul>",,,,,,
+gqenterprise,Minar Lachcha Semai - 200 gm ,Piece,1,un-categorized,groceries,snacks-and-instant-food,chips-and-pretzels,29, 35,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Minar Lachcha Semai - 200gm.</li>
+  <li>Brand: Minar.</li>
+  <li>Product Type: Semai.</li>
+  <li>Net weight: 200gm.</li>
+  <li>Fresh and pure product.</li>
+  <li>Ingredients: Wheat Flour, Corn Starch, Edible Palm Oil, Vanaspati1</li>
+  <li>Manufacturer: GQ Foods Ltd.</li>
+  <li>Healthy, Tasty and Best Quality Lachcha Semai.</li>
+</ul>",,,,,,
+gqenterprise,GQ Aromatic Chini Gura rice - 1 kg,kg,1,gq-enterprise,groceries,snacks-and-instant-food,chips-and-pretzels,105, 130,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>GQ Aromatic Chinigura Rice – 1kg.</li>
+  <li>Product Type: Chinigura Rice.</li>
+  <li>Net Weight: 1kg</li>
+  <li>Premium Quality &ldquo;Aromatic Chinigura Rice&rdquo;.</li>
+  <li>&quot;GQ Chinigura Rice&quot; is 100% Guaranteed Quality.</li>
+  <li>With the assurance of Best Quality, this fragrant rice is incomparable in taste for Polao, Biriyani, Khichuri &amp; Payesh.</li>
+</ul>",,,,,,
+gqenterprise,GQ Dal Muth - 30gm,Piece,1,gq-enterprise,groceries,snacks-and-instant-food,chips-and-pretzels,8, 10,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>GQ Dalmuth - 30gm.</li>
+  <li>Product Type: Aluchur.</li>
+  <li>Net Weight: 30gm.</li>
+  <li>Premium Quality.</li>
+  <li>Very Crispy and Tasty.</li>
+</ul>",,,,,,
+gqenterprise,GQ Aluchur - 30gm,Piece,1,gq-enterprise,groceries,snacks-and-instant-food,chips-and-pretzels,12, 15,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>GQ Aluchur - 30gm.</li>
+  <li>Product Type: Aluchur.</li>
+  <li>Net Weight: 30gm.</li>
+  <li>Premium Quality.</li>
+  <li>Very Crispy and Tasty.</li>
+</ul>",,,,,,
+gqenterprise,GQ Spicy Chira Badam - 20 gm,Piece,1,gq-enterprise,groceries,snacks-and-instant-food,chips-and-pretzels,4,5,0,,,,,,5,,,100,1,,active,"<p data-reactid="".1slgiarc35w.7.2.0.0.0.0.0.1.0.0.1.4.$line-0"">&quot;GQ Spicy Chira Badam</p>
+<p data-reactid="".1slgiarc35w.7.2.0.0.0.0.0.1.0.0.1.4.$line-1"">Product Type: Spicy Chira</p>
+<p data-reactid="".1slgiarc35w.7.2.0.0.0.0.0.1.0.0.1.4.$line-2"">Net Weight: 20gm</p>
+<p data-reactid="".1slgiarc35w.7.2.0.0.0.0.0.1.0.0.1.4.$line-3"">Premium Quality</p>
+<p data-reactid="".1slgiarc35w.7.2.0.0.0.0.0.1.0.0.1.4.$line-4"">Very Crispy and Tasty.&quot;</p>",,,,,,
+gqenterprise,Elephant King Jumbo violet- 10 pcs coils,Box,1,elephant-king,groceries,homeandcleaning,pest-control,39,   50 ,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Elephant King +, Elephant King Jumbo &amp; Super Action BoosterMosquito Coils areformulated with imported, government approved effective insecticide d-trans allethrin.</li>
+  <li>One coil keeps you mosquito free for whole night</li>
+  <li>Different color and fragrance to give comfort.</li>
+  <li>Highly effective against Chikungunya and Dengue.</li>
+  <li>Popular in higher-middle and middle class, city and rural areas.</li>
+  <li>It gives you and your family continuous protection against mosquito.</li>
+  <li>Mosquito Coils can easily be separated.</li>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.14e6lSuTlSuTEg"">10 Coils per packet.</li>
+</ul>",,,,,,
+gqenterprise,Super Action Mosquito Coil- 10 pcs coils,Box,1,un-categorized,groceries,homeandcleaning,pest-control,23,   30 ,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Super Action Booster Mosquito Coils are formulated with imported government approved effective insecticide d-trans allethrin.</li>
+  <li>Brand: Elephant King</li>
+  <li>Product Type: Mosquito coil</li>
+  <li>Safe and hazard free and ensures 8hours burning time.</li>
+  <li>Each Packet Contains 10 pieces.</li>
+  <li>Different color and fragrance to give comfort.</li>
+  <li>Highly effective against Chikungunya and Dengue.</li>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.2f0f56Js56Jsjm"">Popular in higher-middle and middle class, city and rural areas.</li>
+</ul>",,,,,,
+gqenterprise,Elephant King Plus Mosquito Coil- 10 pcs coils,Box,1,elephant-king,groceries,homeandcleaning,pest-control,19,   25 ,0,,,,,,5,,,100,1,,active,"<ul>
+  <li>Brand: Elephant king.</li>
+  <li>Repels mosquitoes.</li>
+  <li>12 hours continuous burning GQ.</li>
+  <li>5 pair or 10 pcs per box.</li>
+  <li>High quality product.</li>
+</ul>",,,,,,
+moushum,Moushum Ginger Powder 130gm,Piece,1,moushum,groceries,cooking-items,spices,135,150,0,,,,,,5,,,20,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic. White</p>,,,,,,
+moushum,Moushum Ginger Powder 250gm,Piece,1,moushum,groceries,cooking-items,spices,261,290,0,,,,,,5,,,20,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic. White</p>,,,,,,
+moushum,Moushum Turmeric Powder 130gm,Piece,1,moushum,groceries,cooking-items,spices,59,65,0,,,,,,5,,,15,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Yellow</p>,,,,,,
+moushum,Moushum Turmeric Powder 250gm,Piece,1,moushum,groceries,cooking-items,spices,108,120,0,,,,,,5,,,25,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Yellow</p>,,,,,,
+moushum,Moushum Turmeric Powder 500gm,Piece,1,moushum,groceries,cooking-items,spices,216,240,0,,,,,,5,,,24,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Yellow</p>,,,,,,
+moushum,Moushum Chili Powder 130gm,Piece,1,moushum,groceries,cooking-items,spices,68,76,0,,,,,,5,,,15,1,,active,<p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Red</p>,,,,,,
+moushum,Moushum Chili Powder 250gm,Piece,1,moushum,groceries,cooking-items,spices,130,145,0,,,,,,5,,,25,1,,active,<p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Red</p>,,,,,,
+moushum,Moushum Chili Powder 500gm,Piece,1,moushum,groceries,cooking-items,spices,261,290,0,,,,,,5,,,24,1,,active,<p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Red</p>,,,,,,
+moushum,Moushum Coriander Powder 130gm,Piece,1,moushum,groceries,cooking-items,spices,59,65,0,,,,,,5,,,40,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Coriander Powder 250gm,Piece,1,moushum,groceries,cooking-items,spices,108,120,0,,,,,,5,,,36,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cumin Powder 130gm,Piece,1,moushum,groceries,cooking-items,spices,94,105,0,,,,,,5,,,40,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cumin Powder 250gm,Piece,1,moushum,groceries,cooking-items,spices,180,200,0,,,,,,5,,,36,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cardamom(medium) 50gm,Piece,1,moushum,groceries,cooking-items,,234,260,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Green</p>,,,,,,
+moushum,Moushum Cardamom(medium) 100gm,Piece,1,moushum,groceries,cooking-items,,468,520,0,,,,,,5,,,25,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Green</p>,,,,,,
+moushum,Moushum Bay Leaves 100gm,Piece,1,moushum,groceries,cooking-items,,27,30,0,,,,,,5,,,24,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Bay Leaves 200gm,Piece,1,moushum,groceries,cooking-items,,45,50,0,,,,,,5,,,18,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cumin 100gm,Piece,1,moushum,groceries,cooking-items,,54,60,0,,,,,,5,,,40,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cumin 200gm,Piece,1,moushum,groceries,cooking-items,,108,120,0,,,,,,5,,,30,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Black Pepper Powder 130gm,Piece,1,moushum,groceries,cooking-items,,162,180,0,,,,,,5,,,10,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Black</p>,,,,,,
+moushum,Moushum Black Pepper Powder 250gm,Piece,1,moushum,groceries,cooking-items,,310,345,0,,,,,,5,,,12,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Black</p>,,,,,,
+moushum,Moushum Psyllium Husk 100gm,Piece,1,moushum,groceries,cooking-items,,126,140,0,,,,,,5,,,20,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic. White</p>,,,,,,
+moushum,Moushum Psyllium Husk 200m,Piece,1,moushum,groceries,cooking-items,,252,280,0,,,,,,5,,,25,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic. White</p>,,,,,,
+moushum,Moushum Tal Misri 130gm,Piece,1,moushum,groceries,snacks-and-instant-food,candy-and-chocolate,81,90,0,,,,,,5,,,30,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Tal Misri 250gm,Piece,1,moushum,groceries,snacks-and-instant-food,candy-and-chocolate,153,170,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Tal Misri 500gm,Piece,1,moushum,groceries,snacks-and-instant-food,candy-and-chocolate,297,330,0,,,,,,5,,,15,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cinnamon 100gm,Piece,1,moushum,groceries,cooking-items,,54,60,0,,,,,,5,,,25,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Cinnamon 200gm,Piece,1,moushum,groceries,cooking-items,,108,120,0,,,,,,5,,,45,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Garam Masala Powder 130gm,Piece,1,moushum,groceries,cooking-items,,225,250,0,,,,,,5,,,10,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Garam Masala Powder 250gm,Piece,1,moushum,groceries,cooking-items,,432,480,0,,,,,,5,,,12,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Black Pepper 50gm,Piece,1,moushum,groceries,cooking-items,,63,70,0,,,,,,5,,,30,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Black</p>,,,,,,
+moushum,Moushum White Pepper 50gm,Piece,1,moushum,groceries,cooking-items,,90,100,0,,,,,,5,,,20,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic. White</p>,,,,,,
+moushum,Moushum Raisin 100gm,Piece,1,moushum,groceries,cooking-items,,34,38,0,,,,,,5,,,20,1,,active, <p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Yellow</p>,,,,,,
+moushum,Moushum Raisin 200gm,Piece,1,moushum,groceries,cooking-items,,68,76,0,,,,,,5,,,40,1,,active, <p>Collected  from local farmers of Rajshahi. It is 100% organic and hygienic.Yellow</p>,,,,,,
+moushum,Moushum Clove 100gm,Piece,1,moushum,groceries,cooking-items,,126,140,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Clove 200gm,Piece,1,moushum,groceries,cooking-items,,252,280,0,,,,,,5,,,10,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Clove 250gm,Piece,1,moushum,groceries,cooking-items,,315,350,0,,,,,,5,,,16,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Dry Chili 100gm,Piece,1,moushum,groceries,cooking-items,,45,50,0,,,,,,5,,,15,1,,active,<p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Red</p>,,,,,,
+moushum,Moushum Dry Chili 200gm,Piece,1,moushum,groceries,cooking-items,,90,100,0,,,,,,5,,,10,1,,active,<p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Red</p>,,,,,,
+moushum,Moushum Dry Chili 250gm,Piece,1,moushum,groceries,cooking-items,,112,125,0,,,,,,5,,,70,1,,active,<p>Collected from local farmers of Rajshahi. It is 100% organic and hygienic.Red</p>,,,,,,
+moushum,Moushum Javitri 50gm,Piece,1,moushum,groceries,cooking-items,,180,200,0,,,,,,5,,,10,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Panch Foron 100gm,Piece,1,moushum,groceries,cooking-items,,49,55,0,,,,,,5,,,10,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Mixed Color</p>,,,,,,
+moushum,Moushum Panch Foron 200gm,Piece,1,moushum,groceries,cooking-items,,94,105,0,,,,,,5,,,10,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Mixed Color</p>,,,,,,
+moushum,Moushum Panch Foron 250gm,Piece,1,moushum,groceries,cooking-items,,117,130,0,,,,,,5,,,12,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Mixed Color</p>,,,,,,
+moushum,Moushum Musterd Flower Honey 250gm,Piece,1,moushum,groceries,breakfast,jam-honey-and-spreads,157,175,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Musterd Flower Honey 500gm,Piece,1,moushum,groceries,breakfast,jam-honey-and-spreads,315,350,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Musterd Flower Honey 1kg,Piece,1,moushum,groceries,breakfast,jam-honey-and-spreads,630,700,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Litchi Flower Honey 250gm,Piece,1,moushum,groceries,breakfast,jam-honey-and-spreads,184,205,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Litchi Flower Honey 500gm,Piece,1,moushum,groceries,breakfast,jam-honey-and-spreads,369,410,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Litchi Flower Honey 1kg,Piece,1,moushum,groceries,breakfast,jam-honey-and-spreads,738,820,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Liquid Date Jaggery 1kg,Piece,1,moushum,groceries,snacks-and-instant-food,candy-and-chocolate,270,300,0,,,,,,5,,,70,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Liquid Date Jaggery 500gm,Piece,1,moushum,groceries,snacks-and-instant-food,candy-and-chocolate,135,150,0,,,,,,5,,,28,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Liquid Date Jaggery 300gm,Piece,1,moushum,groceries,snacks-and-instant-food,candy-and-chocolate,81,90,0,,,,,,5,,,20,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Brown</p>,,,,,,
+moushum,Moushum Black Cumin 250gm,Piece,1,moushum,groceries,cooking-items,,157,170,0,,,,,,5,,,16,1,,active,<p>Collectedfrom local farmers of Rajshahi. It is 100% organic and hygienic.Black</p>,,,,,,
+moushum,Moushum Pure ghee 940 gm,Piece,1,moushum,groceries,cooking-items,,1530,1700,0,,,,,,5,,,50,1,,active, <p>Collected    from local farmers of Rajshahi. It is 100% organic and hygienic.Yellow</p>,,,,,,
+tariftrade,Hitachi Refregarator R-M700VAGUC9X  (MIR) 650Lttr,Piece,1,hitachi,home-appliances,large-appliances,freezer,300000,375000,0,,,,,,5,,,10,1,,active,"<h2 class=""H2Product TechSpec"">&nbsp;</h2>
+<div class=""BoxSpecListSet"">
+<table class=""BoxSpecTable"">
+<tbody>
+<tr>
+<th rowspan=""2"">Series</th>
+<td>Side by Side</td>
+</tr>
+<tr>
+<td>Grande</td>
+</tr>
+<tr>
+<th>Door</th>
+<td>3 Door</td>
+</tr>
+<tr>
+<th>Type</th>
+<td>No Frost</td>
+</tr>
+<tr>
+<th>Energy Class</th>
+<td>G</td>
+</tr>
+<tr>
+<th rowspan=""3"">Gross Capacity (L)</th>
+<td>Total: 633</td>
+</tr>
+<tr>
+<td>Refrigerator: 384</td>
+</tr>
+<tr>
+<td>Freezer: 249</td>
+</tr>
+<tr>
+<th rowspan=""3"">Net Capacity (L)</th>
+<td>Total: 569</td>
+</tr>
+<tr>
+<td>Refrigerator: 362</td>
+</tr>
+<tr>
+<td>Freezer: 207</td>
+</tr>
+<tr>
+<th rowspan=""4"">Dimensions (mm)</th>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Width: 920</td>
+</tr>
+<tr>
+<td>Height: 1,795</td>
+</tr>
+<tr>
+<td>Depth: 720</td>
+</tr>
+<tr>
+<th>Weight (Kg)</th>
+<td>124</td>
+</tr>
+<tr>
+<th>Consumption (kWh/year)</th>
+<td>345</td>
+</tr>
+<tr>
+<th rowspan=""6"">Refrigerator Compartment</th>
+<td>Water Tank with Filter</td>
+</tr>
+<tr>
+<td>Bottle and Wine Shelf</td>
+</tr>
+<tr>
+<td>Tempered Glass Shelves</td>
+</tr>
+<tr>
+<td>Dairy Pocket</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<td>Quick Cooling</td>
+</tr>
+<tr>
+<th rowspan=""2"">Vacuum Compartment</th>
+<td>Vacuum Compartment (5.8L)</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<th rowspan=""3"">Vegetable Compartment</th>
+<td>Separate Vegetable Compartment</td>
+</tr>
+<tr>
+<td>Super Moist Drawers 3</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<th rowspan=""5"">Freezer Compartment</th>
+<td>Automatic Ice-Maker</td>
+</tr>
+<tr>
+<td>Quick Freezing</td>
+</tr>
+<tr>
+<td>Tempered Glass Shelves</td>
+</tr>
+<tr>
+<td>Drawers 3</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<th rowspan=""9"">General Features</th>
+<td>Ice &amp; Water Dispenser</td>
+</tr>
+<tr>
+<td>Vacuum Insulation Panel (VIP)</td>
+</tr>
+<tr>
+<td>Auto Door</td>
+</tr>
+<tr>
+<td>Eco Monitoring Sensor</td>
+</tr>
+<tr>
+<td>Eco Termo Sensor</td>
+</tr>
+<tr>
+<td>Touch Screen Controller</td>
+</tr>
+<tr>
+<td>Dual Sensing Control (wih Eco Thermo-Sensor)</td>
+</tr>
+<tr>
+<td>Powerful Deodorization (Triple Power Filter)</td>
+</tr>
+<tr>
+<td>Door Alarm</td>
+</tr>
+<tr>
+<th>Common Features</th>
+<td>Refrigerant R-600a / CFC-Free / HFC-Free / Moldproof Door Gasket</td>
+</tr>
+<tr>
+<th>Colour</th>
+<td>Glass Bronze (GBZ) / Diamond (DIA) / Mirror (MIR)</td>
+</tr>
+</tbody>
+</table>
+</div>",,,,,,
+tariftrade,Hitachi Refregarator R-M700VAGUC9X (DIA) 650Lttr,Piece,1,hitachi,home-appliances,large-appliances,freezer,300000,375000,0,,,,,,5,,,10,1,,active,"<h2 class=""H2Product TechSpec"">&nbsp;</h2>
+<div class=""BoxSpecListSet"">
+<table class=""BoxSpecTable"">
+<tbody>
+<tr>
+<th rowspan=""2"">Series</th>
+<td>Side by Side</td>
+</tr>
+<tr>
+<td>Grande</td>
+</tr>
+<tr>
+<th>Door</th>
+<td>3 Door</td>
+</tr>
+<tr>
+<th>Type</th>
+<td>No Frost</td>
+</tr>
+<tr>
+<th>Energy Class</th>
+<td>G</td>
+</tr>
+<tr>
+<th rowspan=""3"">Gross Capacity (L)</th>
+<td>Total: 633</td>
+</tr>
+<tr>
+<td>Refrigerator: 384</td>
+</tr>
+<tr>
+<td>Freezer: 249</td>
+</tr>
+<tr>
+<th rowspan=""3"">Net Capacity (L)</th>
+<td>Total: 569</td>
+</tr>
+<tr>
+<td>Refrigerator: 362</td>
+</tr>
+<tr>
+<td>Freezer: 207</td>
+</tr>
+<tr>
+<th rowspan=""4"">Dimensions (mm)</th>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Width: 920</td>
+</tr>
+<tr>
+<td>Height: 1,795</td>
+</tr>
+<tr>
+<td>Depth: 720</td>
+</tr>
+<tr>
+<th>Weight (Kg)</th>
+<td>124</td>
+</tr>
+<tr>
+<th>Consumption (kWh/year)</th>
+<td>345</td>
+</tr>
+<tr>
+<th rowspan=""6"">Refrigerator Compartment</th>
+<td>Water Tank with Filter</td>
+</tr>
+<tr>
+<td>Bottle and Wine Shelf</td>
+</tr>
+<tr>
+<td>Tempered Glass Shelves</td>
+</tr>
+<tr>
+<td>Dairy Pocket</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<td>Quick Cooling</td>
+</tr>
+<tr>
+<th rowspan=""2"">Vacuum Compartment</th>
+<td>Vacuum Compartment (5.8L)</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<th rowspan=""3"">Vegetable Compartment</th>
+<td>Separate Vegetable Compartment</td>
+</tr>
+<tr>
+<td>Super Moist Drawers 3</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<th rowspan=""5"">Freezer Compartment</th>
+<td>Automatic Ice-Maker</td>
+</tr>
+<tr>
+<td>Quick Freezing</td>
+</tr>
+<tr>
+<td>Tempered Glass Shelves</td>
+</tr>
+<tr>
+<td>Drawers 3</td>
+</tr>
+<tr>
+<td>LED Light</td>
+</tr>
+<tr>
+<th rowspan=""9"">General Features</th>
+<td>Ice &amp; Water Dispenser</td>
+</tr>
+<tr>
+<td>Vacuum Insulation Panel (VIP)</td>
+</tr>
+<tr>
+<td>Auto Door</td>
+</tr>
+<tr>
+<td>Eco Monitoring Sensor</td>
+</tr>
+<tr>
+<td>Eco Termo Sensor</td>
+</tr>
+<tr>
+<td>Touch Screen Controller</td>
+</tr>
+<tr>
+<td>Dual Sensing Control (wih Eco Thermo-Sensor)</td>
+</tr>
+<tr>
+<td>Powerful Deodorization (Triple Power Filter)</td>
+</tr>
+<tr>
+<td>Door Alarm</td>
+</tr>
+<tr>
+<th>Common Features</th>
+<td>Refrigerant R-600a / CFC-Free / HFC-Free / Moldproof Door Gasket</td>
+</tr>
+<tr>
+<th>Colour</th>
+<td>Glass Bronze (GBZ) / Diamond (DIA) / Mirror (MIR)</td>
+</tr>
+</tbody>
+</table>
+</div>",,,,,,
+tariftrade,Hitachi  French Door Refrigerator (RW720PUC1GBK) 580Ltr,Piece,1,hitachi,home-appliances,large-appliances,freezer,158000,209000,0,,,,,,5,,,10,1,,active,"<ul>
+  <li>Product Type:Refrigerator</li>
+  <li>Brand: Hitachi</li>
+  <li>Model :RW720PUC1(GBK)</li>
+  <li>Color :Multiple Colors</li>
+  <li>Country of Origin: Japan</li>
+  <li>Country of Assemble :Thailand</li>
+  <li>Weight: 85.000000</li>
+  <li>Dimension (WxDxH) :910 x 1835 x 727 mm</li>
+  <li>Warranty: 2 years parts warranty, 5 years service warranty, Compressor covered in parts warranty</li>
+</ul>",,,,,,
+tariftrade,Hitachi Refrigerator R-WB710PUC9 (GBW) 465 Ltr,Piece,1,hitachi,home-appliances,large-appliances,freezer,125000,179000,0,,,,,,5,,,10,1,,active,"<table id=""product-attribute-specs-table"" class=""data table additional-attributes"">
+<tbody>
+<tr>
+<th class=""col label"" scope=""row"">Brand</th>
+<td class=""col data"" data-th=""Brand"">Hitachi</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Model</th>
+<td class=""col data"" data-th=""Model"">R-WB710PUC9(GBK)</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Refrigerator Type</th>
+<td class=""col data"" data-th=""Refrigerator Type"">Side-by-Side</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Number of Doors</th>
+<td class=""col data"" data-th=""Number of Doors"">3 Doors</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">&nbsp;</th>
+<td class=""col data"" data-th=""Defrosting Type"">&nbsp;</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Features</th>
+<td class=""col data"" data-th=""Features"">Smart Refrigerator</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Energy Rating (Star)</th>
+<td class=""col data"" data-th=""Energy Rating (Star)"">Inverter Technology</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Total Capacity (Litres)</th>
+<td class=""col data"" data-th=""Total Capacity (Litres)"">435</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Door Lock</th>
+<td class=""col data"" data-th=""Door Lock"">No</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Color</th>
+<td class=""col data"" data-th=""Color"">Black</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Country of Origin</th>
+<td class=""col data"" data-th=""Country of Origin"">Japan</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Country of Assemble</th>
+<td class=""col data"" data-th=""Country of Assemble"">Thailand</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Weight</th>
+<td class=""col data"" data-th=""Weight"">90.000000</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Dimension (WxDxH)</th>
+<td class=""col data"" data-th=""Dimension (WxDxH)"">75.5 cm,76 cm ,178 cm</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Delivery</th>
+<td class=""col data"" data-th=""Delivery"">Free delivery in Dhaka and Chattogram cities</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Warranty</th>
+<td class=""col data"" data-th=""Warranty"">2 years parts warranty</td>
+</tr>
+</tbody>
+</table>",,,,,,
+tariftrade,Hitachi Refrigerator R-WB710PUC9 (GBK),Piece,1,hitachi,home-appliances,large-appliances,freezer,125000,179000,0,,,,,,5,,,10,1,,active,"<table id=""product-attribute-specs-table"" class=""data table additional-attributes"">
+<tbody>
+<tr>
+<th class=""col label"" scope=""row"">Brand</th>
+<td class=""col data"" data-th=""Brand"">Hitachi</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Model</th>
+<td class=""col data"" data-th=""Model"">R-WB710PUC9(GBK)</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Refrigerator Type</th>
+<td class=""col data"" data-th=""Refrigerator Type"">Side-by-Side</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Number of Doors</th>
+<td class=""col data"" data-th=""Number of Doors"">3 Doors</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Defrosting Type</th>
+<td class=""col data"" data-th=""Defrosting Type"">&nbsp;</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Features</th>
+<td class=""col data"" data-th=""Features"">Smart Refrigerator</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Energy Rating (Star)</th>
+<td class=""col data"" data-th=""Energy Rating (Star)"">Inverter Technology</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Total Capacity (Litres)</th>
+<td class=""col data"" data-th=""Total Capacity (Litres)"">435</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Door Lock</th>
+<td class=""col data"" data-th=""Door Lock"">No</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Color</th>
+<td class=""col data"" data-th=""Color"">Black</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Country of Origin</th>
+<td class=""col data"" data-th=""Country of Origin"">Japan</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Country of Assemble</th>
+<td class=""col data"" data-th=""Country of Assemble"">Thailand</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Weight</th>
+<td class=""col data"" data-th=""Weight"">90.000000</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Dimension (WxDxH)</th>
+<td class=""col data"" data-th=""Dimension (WxDxH)"">75.5 cm,76 cm ,178 cm</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Delivery</th>
+<td class=""col data"" data-th=""Delivery"">Free delivery in Dhaka and Chattogram cities</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Warranty</th>
+<td class=""col data"" data-th=""Warranty"">2 years parts warranty</td>
+</tr>
+</tbody>
+</table>",,,,,,
+tariftrade,Hitachi 4-Door Refrigerator (RW-660PUC7) 660 Ltr ,Piece,1,hitachi,home-appliances,large-appliances,freezer,130000,187000,0,,,,,,5,,,10,1,,active,"<table id=""product-attribute-specs-table"" class=""data table additional-attributes"">
+<tbody>
+<tr>
+<th class=""col label"" scope=""row"">Brand</th>
+<td class=""col data"" data-th=""Brand"">Hitachi</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Model</th>
+<td class=""col data"" data-th=""Model"">RW-660PUC7</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Number of Doors</th>
+<td class=""col data"" data-th=""Number of Doors"">4 Doors</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Defrosting Type</th>
+<td class=""col data"" data-th=""Defrosting Type"">&nbsp;</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Door Lock</th>
+<td class=""col data"" data-th=""Door Lock"">No</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Color</th>
+<td class=""col data"" data-th=""Color"">Black</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Country of Origin</th>
+<td class=""col data"" data-th=""Country of Origin"">Japan</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Country of Assemble</th>
+<td class=""col data"" data-th=""Country of Assemble"">Thailand</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Weight</th>
+<td class=""col data"" data-th=""Weight"">220.000000</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Delivery</th>
+<td class=""col data"" data-th=""Delivery"">Delivery countrywide,</td>
+</tr>
+<tr>
+<th class=""col label"" scope=""row"">Warranty</th>
+<td class=""col data"" data-th=""Warranty"">2 years parts warranty, 5 years service warranty, Compressor covered in parts warranty</td>
+</tr>
+</tbody>
+</table>",,,,,,
+fogg,Fogg Body Spray Combo-1,Piece,3,fogg,health-and-beauty-1,fragrances,,829,975,0,,,,,,5,,,100,1,,active,"<p>Body Spray Nepoleon 120ml</p>
+<p>Body Spray Majestic 120ml</p>
+<p>Body Spray Monarch 120ml</p>
+<ul>
+<li>Packaging Size 120 ml&nbsp;</li>
+<li>Gender Male&nbsp;</li>
+<li>Brand Fogg</li>
+<li>&nbsp;Fragrance Lavender Shelf Life 36 Months</li>
+<li>Fogg Radiate Deodorant spray is formulated to provide complete protection from body odor</li>
+<li>Infused with sweat prevention properties this deodorant spray helps to control sweat</li>
+<li>Invigorating fragrance stays on your skin for long hours and keeps you smelling good till the end of the day</li>
+<li>This deodorant doesn&acirc;t cause any irritation to the skin and leaves no stain on clothes</li>
+<li>Ensures 800 sprays</li>
+<li>&acirc;NO GAS&acirc; formula</li>
+<li>Long lasting fragrance that lasts for 10-12 hours</li>
+</ul>",,,,,,
+fogg,Fogg Body Spray Combo-2,Piece,3,fogg,health-and-beauty-1,fragrances,,829,975,0,,,,,,5,,,100,1,,active,"<p>Body Spray Women Essence 120ml</p>
+<p>Body Spray Women Paradise 120ml</p>
+<p>Body Spray Women Radiate 120ml</p>
+<ul>
+<li>Packaging Size 120 ml&nbsp;</li>
+<li>Gender Women</li>
+<li>Brand Fogg</li>
+<li>&nbsp;Fragrance Lavender Shelf Life 36 Months</li>
+<li>Fogg Radiate Deodorant spray is formulated to provide complete protection from body odor</li>
+<li>Infused with sweat prevention properties this deodorant spray helps to control sweat</li>
+<li>Invigorating fragrance stays on your skin for long hours and keeps you smelling good till the end of the day</li>
+<li>This deodorant doesn&acirc;t cause any irritation to the skin and leaves no stain on clothes</li>
+<li>Ensures 800 sprays</li>
+<li>&acirc;NO GAS&acirc; formula</li>
+<li>Long lasting fragrance that lasts for 10-12 hours</li>
+</ul>",,,,,,
+fogg,Fogg Black Series Combo-3,Piece,3,fogg,health-and-beauty-1,fragrances,,982,1155,0,,,,,,5,,,100,1,,active,"<p>Black Series - Aromatic 120ml</p>
+<p>Black Series - Woody 120ml</p>
+<p>Black Series - Oriental120ml</p>
+<ul>
+<li>Packaging Size 120 ml&nbsp;</li>
+<li>Gender men</li>
+<li>Brand Fogg</li>
+<li>&nbsp;Fragrance Lavender Shelf Life 36 Months</li>
+<li>Fogg Radiate Deodorant spray is formulated to provide complete protection from body odor</li>
+<li>Infused with sweat prevention properties this deodorant spray helps to control sweat</li>
+<li>Invigorating fragrance stays on your skin for long hours and keeps you smelling good till the end of the day</li>
+<li>This deodorant doesn&acirc;t cause any irritation to the skin and leaves no stain on clothes</li>
+<li>Ensures 800 sprays</li>
+<li>&acirc;NO GAS&acirc; formula</li>
+<li>Long lasting fragrance that lasts for 10-12 hours</li>
+</ul>",,,,,,
+fogg,Fogg Bleu Series Combo-4,Piece,3,fogg,health-and-beauty-1,fragrances,,  1109 ,  1305 ,0,,,,,,5,,,100,1,,active,"<p>Bleu Series - Forest 120ml</p>
+<p>Bleu Series - Skies 120ml</p>
+<p>Bleu Series - Spring 120ml</p>
+<ul>
+<li>Packaging Size 120 ml&nbsp;</li>
+<li>Gender men</li>
+<li>Brand Fogg</li>
+<li>&nbsp;Fragrance Lavender Shelf Life 36 Months</li>
+<li>Fogg Radiate Deodorant spray is formulated to provide complete protection from body odor</li>
+<li>Infused with sweat prevention properties this deodorant spray helps to control sweat</li>
+<li>Invigorating fragrance stays on your skin for long hours and keeps you smelling good till the end of the day</li>
+<li>This deodorant doesn&acirc;t cause any irritation to the skin and leaves no stain on clothes</li>
+<li>Ensures 800 sprays</li>
+<li>&acirc;NO GAS&acirc; formula</li>
+<li>Long lasting fragrance that lasts for 10-12 hours</li>
+</ul>",,,,,,
+fogg,Ossum Body Mist Combo-5,Piece,3,fogg,health-and-beauty-1,fragrances,,765,900,0,,,,,,5,,,100,1,,active,"<p>Ossum Body Mist - Peach 120ml </p>
+<p>Ossum Body Mist - Blueberry 120ml</p>
+<p> Ossum Body Mist - Green Tea 120ml</p>
+<ul>
+  <li>Long Lasting Fragrance</li>
+  <li>Gender: Women</li>
+  <li>Type: Body Spray</li>
+  <li>Top Notes: Fresh Fragrance Family</li>
+</ul>",,,,,,
+fogg,Ossum Body Spray Combo-6,Piece,3,fogg,health-and-beauty-1,fragrances,,  829 ,  975 ,0,,,,,,5,,,100,1,,active,"<p>Ossum Body Spray - Appeal 120ml </p>
+<p>Ossum Body Spray - Desire 120ml</p>
+<p> Ossum Body Spray - Teaser 120ml</p>
+<ul>
+  <li>Long Lasting Fragrance</li>
+  <li>Gender: Women</li>
+  <li>Type: Body Spray</li>
+  <li>Top Notes: Fresh Fragrance Family</li>
+</ul>",,,,,,
+sarkerengineering,OLEVS Quartz Wrist Watch Multi Time Zone Sport Genuine Leather Brown gold - 2871 A,Piece,1,olevs,fashion,watches-and-accessories,men's-watch,1200,2500,0,,,,,,5,,,10,1,,active,,,,,,,
+sarkerengineering,OLEVS Quartz Wrist Watch Multi Time Zone Sport Genuine Leather Brown gold Black - OLV 2871 B,Piece,1,olevs,fashion,watches-and-accessories,men's-watch,1200,2500,0,,,,,,5,,,10,1,,active,,,,,,,
+sarkerengineering,OLEVS Quartz Wrist Watch Multi Time Zone Sport Genuine Leather Black - OLV 2871 C,Piece,1,olevs,fashion,watches-and-accessories,men's-watch,1200,2500,0,,,,,,5,,,10,1,,active,,,,,,,
+sarkerengineering,OLEVS Fashion Waterproof 2021 Stainless Steel Strap Wristwatch - 5563 W,Piece,1,olevs,fashion,watches-and-accessories,men's-watch,1100,2250,0,,,,,,5,,,10,1,,active,,,,,,,
+sarkerengineering,OLEVS Fashion Waterproof  2021 Stainless Steel Strap Wristwatch - 5563 B,Piece,1,olevs,fashion,watches-and-accessories,men's-watch,1100,2250,0,,,,,,5,,,10,1,,active,,,,,,,
+sarkerengineering,WISHDOIT 156-B Casual Sports Watch Waterproof Stainless Steel Wrist Watch 2021,Piece,1,wishdoit,fashion,watches-and-accessories,men's-watch,1800,4500,0,,,,,,5,,,10,1,,active,,,,,,,
+sarkerengineering,WISHDOIT 156 Casual Sports Watch Waterproof Stainless Steel Wrist Watch 2021,Piece,1,wishdoit,fashion,watches-and-accessories,men's-watch,1800,4500,0,,,,,,5,,,10,1,,active,,,,,,,

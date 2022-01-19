@@ -1,0 +1,509 @@
+business,name,unit,per_unit_value,brand,category,sub_category,sub_category2,price,is_offer_enable,offer_price,featured_image,short_resolation_image,type,keywords,alert_quantity,sku,delivery_time,current_stock,enable_stock,shipping_charge,status,description,image1,image2,image3,image4,image5,image6
+kazifoodindustries,Strawberry jam 340 gm,Piece,1,kazi food industries,groceries,snacks and instant food,,260,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Orange jelly 340 gm,Piece,1,kazi food industries,groceries,snacks and instant food,,130,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chocolate Muffin 25gm,Piece,1,kazi food industries,groceries,snacks and instant food,,10,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vanilla Muffin 25gm,Piece,1,kazi food industries,groceries,snacks and instant food,,10,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Sliced Fruit Cake 100gm,Piece,1,kazi food industries,groceries,snacks and instant food,,30,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Pound Cake Chocolate 250gm,Piece,1,kazi food industries,groceries,snacks and instant food,,80,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Mixed Fruit Cake 250gm,Piece,1,kazi food industries,groceries,snacks and instant food,,100,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Pound Cake Vanilla,Piece,1,kazi food industries,groceries,snacks and instant food,,80,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Plain Toast 350gm,Piece,1,kazi food industries,groceries,snacks and instant food,,50,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Burger,Piece,1,kazi food industries,groceries,snacks and instant food,,160,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Cutlet,Piece,1,kazi food industries,groceries,snacks and instant food,,165,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Nuggets Kids,Piece,1,kazi food industries,groceries,snacks and instant food,,170,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Nuggets Original,Piece,1,kazi food industries,groceries,snacks and instant food,,165,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Nuggets Spicy,Piece,1,kazi food industries,groceries,snacks and instant food,,165,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Strips,Piece,1,kazi food industries,groceries,snacks and instant food,,215,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Teasers,Piece,1,kazi food industries,groceries,snacks and instant food,,180,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Meat Ball,Piece,1,kazi food industries,groceries,snacks and instant food,,175,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Aloo Puri,Piece,1,kazi food industries,groceries,snacks and instant food,,105,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Samosa,Piece,1,kazi food industries,groceries,snacks and instant food,,160,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Spring Roll,Piece,1,kazi food industries,groceries,snacks and instant food,,165,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Dal Puri,Piece,1,kazi food industries,groceries,snacks and instant food,,105,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Sausage Plain,Piece,1,kazi food industries,groceries,snacks and instant food,,120,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Sausage   Spicy,Piece,1,kazi food industries,groceries,snacks and instant food,,120,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Plain Paratha,Piece,1,kazi food industries,groceries,snacks and instant food,,80,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Plain Paratha,Piece,1,kazi food industries,groceries,snacks and instant food,,265,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vegetable Samosa,Piece,1,kazi food industries,groceries,snacks and instant food,,125,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vegetable Spring Roll,Piece,1,kazi food industries,groceries,snacks and instant food,,125,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Sausage Plain,Piece,1,kazi food industries,groceries,snacks and instant food,,230,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Sausage   Spicy 1,Piece,1,kazi food industries,groceries,snacks and instant food,,230,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Meat ball Spicy,Piece,1,kazi food industries,groceries,snacks and instant food,,175,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Lollypop,Piece,1,kazi food industries,groceries,snacks and instant food,,225,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vegetable Singara,Piece,1,kazi food industries,groceries,snacks and instant food,,90,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Keema Paratha,Piece,1,kazi food industries,groceries,snacks and instant food,,100,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Filo Pastry Sheet,Piece,1,kazi food industries,groceries,snacks and instant food,,170,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Shrimp Samosa,Piece,1,kazi food industries,groceries,snacks and instant food,,200,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Shrimp Spring Roll,Piece,1,kazi food industries,groceries,snacks and instant food,,200,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Shammi Kabab,Piece,1,kazi food industries,groceries,snacks and instant food,,200,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Shrimp Nobashi,Piece,1,kazi food industries,groceries,snacks and instant food,,270,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,French Fry,Piece,1,kazi food industries,groceries,snacks and instant food,,130,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Plain Paratha 10 Pcs,Piece,1,kazi food industries,groceries,snacks and instant food,,150,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Samosa 1,Piece,1,kazi food industries,groceries,snacks and instant food,,310,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vegetable Singara,Piece,1,kazi food industries,groceries,snacks and instant food,,120,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Chicken Kiev,Piece,1,kazi food industries,groceries,snacks and instant food,,350,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Liver Singara,Piece,1,kazi food industries,groceries,snacks and instant food,,100,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Crispy Shrimp,Piece,1,kazi food industries,groceries,snacks and instant food,,275,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,French Fries,Piece,1,kazi food industries,groceries,snacks and instant food,,240,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Primo Vanilla,Piece,1,kazi food industries,groceries,snacks and instant food,,1080,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Suprimo Vanilla,Piece,1,kazi food industries,groceries,snacks and instant food,,900,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Suprimo Chocolate,Piece,1,kazi food industries,groceries,snacks and instant food,,900,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Biscotto Vanilla,Piece,1,kazi food industries,groceries,snacks and instant food,,560,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Biscotto Chocolate,Piece,1,kazi food industries,groceries,snacks and instant food,,560,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Primo Chocolate,Piece,1,kazi food industries,groceries,snacks and instant food,,1080,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Dolce Malai,Piece,1,kazi food industries,groceries,snacks and instant food,,385,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Mango Yogurt Ice Cream Ltr,Piece,1,kazi food industries,groceries,snacks and instant food,,375,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Mango,Piece,1,kazi food industries,groceries,snacks and instant food,,540,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Strawberry,Piece,1,kazi food industries,groceries,snacks and instant food,,540,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Chocolate,Piece,1,kazi food industries,groceries,snacks and instant food,,540,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Vanilla,Piece,1,kazi food industries,groceries,snacks and instant food,,540,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Mango 1,Piece,1,kazi food industries,groceries,snacks and instant food,,325,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Strawberry,Piece,1,kazi food industries,groceries,snacks and instant food,,325,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Chocolate,Piece,1,kazi food industries,groceries,snacks and instant food,,325,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Premium Vanilla 1,Piece,1,kazi food industries,groceries,snacks and instant food,,325,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Fantastico,Piece,1,kazi food industries,groceries,snacks and instant food,,275,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Guava,Piece,1,kazi food industries,groceries,snacks and instant food,,660,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Toffee,Piece,1,kazi food industries,groceries,snacks and instant food,,660,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Butter Scotch Caramel with 450 ml,Piece,1,kazi food industries,groceries,snacks and instant food,,225,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Cookies Cream 450 ml,Piece,1,kazi food industries,groceries,snacks and instant food,,225,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Strawberry cheesecake,Piece,1,kazi food industries,groceries,snacks and instant food,,225,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vanilla Fudge Brownie,Piece,1,kazi food industries,groceries,snacks and instant food,,225,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vanilla Fudge Brownie,Piece,1,kazi food industries,groceries,snacks and instant food,,225,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Guava 1,Piece,1,kazi food industries,groceries,snacks and instant food,,400,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Premium Toffee 1 Ltr. 1000Ml,Piece,1,kazi food industries,groceries,snacks and instant food,,400,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Butter Scotch Caramel Almond   900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,415,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Vanilla Fudge Brownie   900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,415,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Crunchy Coconut Caramel Ice Cream 900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,395,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Blueberry Yoghurt 900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,395,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Crunchy Nutty Caramel 900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,375,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Crunchy Chocolaty Delight 900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,415,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Bellissimo Gajorella Delight 900ml,Piece,1,kazi food industries,groceries,snacks and instant food,,375,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Perfetto Vanilla,Piece,1,kazi food industries,groceries,snacks and instant food,,750,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Perfetto Strawberry,Piece,1,kazi food industries,groceries,snacks and instant food,,750,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Perfetto chocolate ripple,Piece,1,kazi food industries,groceries,snacks and instant food,,750,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Perfetto Butter Scotch Cone 121ml Box,Piece,1,kazi food industries,groceries,snacks and instant food,,750,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+kazifoodindustries,Cone Biscuit Box 1,Piece,1,kazi food industries,groceries,snacks and instant food,,720,0,,,,,,10,,10080,100,1,,active,"<ul>
+<li>Hygienic</li>
+<li>High nutritional value</li>
+<li>Nominal rates</li>
+</ul>",,,,,,
+neocare(incepta),NeoCare Diaper Small 4 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,100,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Small 10 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,250,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Small 32 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,800,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Small 50 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1150,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Medium 4 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,120,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Medium 10 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,300,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Medium 32 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,960,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Medium 50 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1400,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Large 4 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,136,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Large 10 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,340,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Large 32 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1088,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper Large 50 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1600,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper XL 4 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,160,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper XL 10 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,400,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper XL 30 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1200,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Diaper XL 50 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1900,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare NewBorn Diaper 20 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,640,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Pants Medium 36 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1200,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Pants Large 32 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1200,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Pants XL 28 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1200,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Pants XXL 24 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1200,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),Aspire Adult diaper Medium 8 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,725,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),Aspire Adult diaper Large 8 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,815,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),Aspire Adult diaper Medium 20 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1700,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),Aspire Adult diaper Large 20 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,1900,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Baby Wipes 120 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,220,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Baby Wipes 80 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,190,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Wet Wipes 10 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,40,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Disinfectant wipes 25 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,125,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),NeoCare Disinfectant wipes 100 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,500,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),Lumera Make up remover Wipes 25 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,200,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+neocare(incepta),Aspire Adult wet towel 80 Pack,Piece,1,neo-care,babies-&-toys,diapers-and- potty,,400,,,,,,,10,,10080,100,1,,active,"<p>Buy NeoCare belt system baby diaper small size for 3-6 kg badies 50pcs in Bangladesh from Cellsii.com. Your baby is one of the most precious &amp; special gifts of your life. They make your life complete &amp; blissful. That&rsquo;s why they deserve maximum care &amp; comfort from you. ""NeoCare"" is a specially designed baby diaper which ensures dryness over a longer period of time. NeoCare helps ensure a healthy and happy baby.</p>",,,,,,
+atomy,Atomy Aqua Cream,Piece,1,atomy,health-and-beauty-1,makeup,,2500,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Calming skin,Piece,1,atomy,health-and-beauty-2,makeup,,2900,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Daily expert mask,Piece,1,atomy,health-and-beauty-3,makeup,,2000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Daily expert mask Brightening,Piece,1,atomy,health-and-beauty-4,makeup,,2000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute Spot  Out Crem,Piece,1,atomy,health-and-beauty-5,makeup,,4000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Saengmodan Hair Tonic,Piece,1,atomy,health-and-beauty-6,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Toothpaste,Piece,1,atomy,health-and-beauty-7,makeup,,750,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy The Fame Skin Care System,Piece,1,atomy,health-and-beauty-8,makeup,,15000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Lip Liquid Velvet,Piece,1,atomy,health-and-beauty-9,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute Essence sun,Piece,1,atomy,health-and-beauty-10,makeup,,2000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute spot out essence,Piece,1,atomy,health-and-beauty-11,makeup,,5900,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute urban shield sun,Piece,1,atomy,health-and-beauty-12,makeup,,2400,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute urban shield sun Refill,Piece,1,atomy,health-and-beauty-13,makeup,,1600,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Lip Liquid,Piece,1,atomy,health-and-beauty-14,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Lipstick,Piece,1,atomy,health-and-beauty-15,makeup,,2100,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Hydra Brightening Cream,Piece,1,atomy,health-and-beauty-16,makeup,,3100,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Hydra Brightening Capsule Essence,Piece,1,atomy,health-and-beauty-17,makeup,,3200,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Herbal Hair Shampoo,Piece,1,atomy,health-and-beauty-18,makeup,,2000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Toothbrush,Piece,1,atomy,health-and-beauty-19,makeup,,160,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Marine Eye Patch,Piece,1,atomy,health-and-beauty-20,makeup,,2500,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Calming Skin & Again Serum,Piece,1,atomy,health-and-beauty-21,makeup,,3200,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute bb,Piece,1,atomy,health-and-beauty-22,makeup,,2400,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy sunscreen (beige),Piece,1,atomy,health-and-beauty-23,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Peeling Gel,Piece,1,atomy,health-and-beauty-24,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Foam cleanser,Piece,1,atomy,health-and-beauty-25,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Deep Cleanser,Piece,1,atomy,health-and-beauty-26,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Peel   off mask,Piece,1,atomy,health-and-beauty-27,makeup,,1800,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Absolute cellactive skincare set,Piece,1,atomy,health-and-beauty-28,makeup,,32000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Eco mild bubble cleanser,Piece,1,atomy,health-and-beauty-29,makeup,,2000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Derma real cica set,Piece,1,atomy,health-and-beauty-30,makeup,,9000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Healthy Glow Base,Piece,1,atomy,health-and-beauty-31,makeup,,2200,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Deep pure cleansing oil,Piece,1,atomy,health-and-beauty-32,makeup,,3100,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Gold collagem ampoule cushion,Piece,1,atomy,health-and-beauty-33,makeup,,5500,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Tone up Moisturizer,Piece,1,atomy,health-and-beauty-34,makeup,,2200,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Homme Lotion,Piece,1,atomy,health-and-beauty-35,makeup,,2600,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Homme Essence,Piece,1,atomy,health-and-beauty-36,makeup,,2700,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Homme Toner,Piece,1,atomy,health-and-beauty-37,makeup,,2700,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Acne Cler Serum,Piece,1,atomy,health-and-beauty-38,makeup,,3200,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Herbal Body Cleanser,Piece,1,atomy,health-and-beauty-39,makeup,,2000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy Marine Ampoule Gel Mask,Piece,1,atomy,health-and-beauty-40,makeup,,4000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+atomy,Atomy 7 Solutions Gel Mask,Piece,1,atomy,health-and-beauty-41,makeup,,4000,,,,,,,10,,10080,100,1,,active,"<p>Functions Soothing Moisturizing Restoring Strengthening Smoothing Brightening Nutritional Hydro-gel sheet that sticks firmly along the face line, leaving out any space.</p>",,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Piece,1,,,,,,,,,,,,,,,,,,,,,,,,,

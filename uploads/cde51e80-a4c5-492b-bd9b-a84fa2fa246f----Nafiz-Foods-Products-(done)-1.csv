@@ -1,0 +1,841 @@
+business,name,unit,per_unit_value,brand,category,sub_category,sub_category2,vendor_price,price,is_offer_enable,offer_price,featured_image,short_resolation_image,type,keywords,alert_quantity,slug,sku,delivery_time,current_stock,enable_stock,shipping_charge,status,description,image1,image2,image3,image4,image5,image6
+partexbeverageltd,RC Lemon (1ltr),Piece,12,rc,groceries,beverages,soft-drinks,530,600,0,,,,,,5,,,,50,1,,active,"<p>Product Type:Soft Drinks  </p>
+<p>RC Lemon-1000ml  </p>
+<p>Brand:RC  </p>
+<p>Net weight:1000ml</p>",,,,,,
+partexbeverageltd,RC Upper -10 (1ltr),Piece,12,rc,groceries,beverages,soft-drinks,440,540,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: Upper-10</li>
+  <li>Product Type: Lime Soft Drinks</li>
+  <li>Size: 1000ml</li>
+  <li>Caffeine-free drink lemon-lime soft drink</li>
+  <li>Mind Refreshing Drink</li>
+  <li>Refreshing Soft Drink</li>
+</ul>",,,,,,
+partexbeverageltd,RC Orange (1ltr),Piece,6,rc,groceries,beverages,soft-drinks,225,300,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: RC Orange</li>
+  <li>Product Type: Soft Drinks</li>
+  <li>Size: 1ltr</li>
+  <li>Mind Refreshing Drink</li>
+  <li>Refreshing Soft Drink</li>
+</ul>",,,,,,
+partexbeverageltd,RC Cola-10 2 Ltr,Piece,6,rc,groceries,beverages,soft-drinks,350,420,0,,,,,,5,,,,50,1,,active,"<table border=""0"" cellspacing=""0"" cellpadding=""2"">
+  <tbody>
+    <tr>
+      <td colspan=""3"" bgcolor=""DFDFDF"">RC Cola 2 Liter</td>
+    </tr>
+    <tr bgcolor=""CCCCCC"">
+      <td>Size</td>
+      <td></td>
+      <td>Color</td>
+      <td colspan=""2"" align=""left"">Weight</td>
+    </tr>
+  </tbody>
+</table>",,,,,,
+partexbeverageltd,RC  Club Soda 500ml,Piece,24,rc,groceries,beverages,soft-drinks,610,720,0,,,,,,5,,,,50,1,,active,"<p>Royal Crown Club Soda 500ml<br />
+  Brand: Olympic Industries LTD.<br />
+Net weight: 500ml</p>",,,,,,
+nafisfood,Premium Almond 100gm,Piece,1,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,130,98,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product: Almond</li>
+  <li>Net Weight: 100gm</li>
+  <li>Brand: Nafis Food</li>
+  <li>Origin: USA</li>
+  <li>Premium Quality</li>
+  <li>Pure &amp; Fresh</li>
+  <li>Delicious</li>
+  <li>Ready to use</li>
+</ul>",,,,,,
+nafisfood,Premium Almond 250gm,Piece,2,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,310,238,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Almond 250gm.</li>
+  <li>Product Type: Almond.</li>
+  <li>Weight: 250gm.</li>
+  <li>Pure &amp; Fresh &amp; Delicious.</li>
+  <li>Premium quality product.</li>
+</ul>",,,,,,
+nafisfood,Premium Almond 500gm,Piece,3,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,550,426,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Premium Almond - 500gm.</li>
+  <li>Product Name: Almond.</li>
+  <li>Net Weight: 500gm.</li>
+  <li>Origin: USA.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Organic.</li>
+  <li>Ready to use.</li>
+  <li>It helps to improve hair, skin, and brain.</li>
+</ul>",,,,,,
+nafisfood,Premium Almond 1kg,Piece,4,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,950,754,0,,,,,,5,,,,50,1,,active,"<p>Brand: Nafis Food</p>
+<p>Weight: 1kg</p>
+<p>Flavour: Almond</p>",,,,,,
+nafisfood,Premium Cashew Nuts 100gm,Piece,5,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,170,123,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Grade Cashew Nut (Kaju Badam) - 100gm.</li>
+  <li>Product Type: Cashew Nut.</li>
+  <li>Weight: 100gm.</li>
+  <li>A premiqum quality product.</li>
+  <li>Adulterated free.</li>
+</ul>",,,,,,
+nafisfood,Premium Cashew Nuts 250gm,Piece,6,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,410,295,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Types:Cashew Nut</li>
+  <li>Weight: 250gm</li>
+  <li>Highest quality guaranteed</li>
+  <li>All thing buy at wholesale price</li>
+  <li>Pure and Fresh</li>
+  <li>Good for your healthy life</li>
+</ul>
+<p>Cashew nuts will keep your heart healthy. In fact, almonds are cholesterol free. So when you eat it, your heart will be fresh. Almonds contain a lot of calcium, potassium and magnesium. So your body bones will be better</p>",,,,,,
+nafisfood,Premium Cashew Nuts 500gm,Piece,7,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,750,574,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Quality Cashew Nuts - 500gm.</li>
+  <li>Product Name: Cashew Nuts.</li>
+  <li>Net Weight: 500gm.</li>
+  <li>Brand: Nafis Food.</li>
+  <li>Origin: Vietnam.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Organic.</li>
+  <li>Ready to use.</li>
+  <li>It helps to improve hair, skin, and brain.</li>
+</ul>",,,,,,
+nafisfood,Premium Cashew Nuts 1kg,Piece,8,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,1350,1066,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.f37dR532R532gW"">Cashew Nut</li>
+  <li>কাজুবাদাম আস্ত.</li>
+  <li>Weight: 1 kg</li>
+  <li>Premium Quality.</li>
+  <li>Good quality Product.</li>
+</ul>",,,,,,
+nafisfood,Premium Salted Cashew Nuts 100gm,Piece,9,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,190,139,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Salted cashew nut.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Ready to use.</li>
+  <li>Net weight: 100 gm.</li>
+  <li>Use it with sweet dishes.</li>
+  <li>Premium quality.</li>
+  <li>Taste is Salted.</li>
+</ul>",,,,,,
+nafisfood,Premium Salted Cashew Nuts 250gm,Piece,10,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,450,340,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Types:Cashew Nut</li>
+  <li>Weight: 250gm</li>
+  <li>Highest quality guaranteed</li>
+  <li>All thing buy at wholesale price</li>
+  <li>Pure and Fresh</li>
+  <li>Good for your healthy life</li>
+</ul>
+<p>Cashew nuts will keep your heart healthy. In fact, almonds are cholesterol free. So when you eat it, your heart will be fresh. Almonds contain a lot of calcium, potassium and magnesium. So your body bones will be better</p>",,,,,,
+nafisfood,Premium Salted Cashew Nuts 500gm,Piece,11,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,850,648,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Quality Salted Cashew Nuts - 500gm.</li>
+  <li>Product Name: Salted Cashew Nuts.</li>
+  <li>Net Weight: 500gm.</li>
+  <li>Brand: Nafis Food.</li>
+  <li>Origin: South Africa.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Organic.</li>
+  <li>It helps to improve hair, skin, and brain.</li>
+</ul>",,,,,,
+nafisfood,Premium Salted Cashew Nuts 1kg,Piece,12,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,1550,1230,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Types:Cashew Nut</li>
+  <li>Weight:1kg</li>
+  <li>Highest quality guaranteed</li>
+  <li>All thing buy at wholesale price</li>
+  <li>Pure and Fresh</li>
+  <li>Good for your healthy life</li>
+</ul>
+<p>Cashew nuts will keep your heart healthy. In fact, almonds are cholesterol free. So when you eat it, your heart will be fresh. Almonds contain a lot of calcium, potassium and magnesium. So your body bones will be better</p>",,,,,,
+nafisfood,Premium Roasted Peanuts 100gm,Piece,13,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,100,66,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Roasted Peanuts 100g - RP003.</li>
+  <li>Brand: Nafis Food.</li>
+  <li>Net Weight: 100g.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Organic &amp; Delicious.</li>
+  <li>It helps to improve hair, skin, brain and sexuality.</li>
+</ul>",,,,,,
+nafisfood,Premium Roasted Peanuts 150gm,Piece,14,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,125,90,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Roasted Peanuts</li>
+    <li>Net Weight: 150g</li>
+    <li>Brand: Nafis Food</li>
+    <li>Origin: Bangladesh</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious</li>
+    <li>Organic</li>
+    <li>Ready to use</li>
+    <li>It is helps to improve hair, skin, brain and sexuality</li>
+  </ul>
+</div>",,,,,,
+nafisfood,Premium Roasted Peanuts 300gm,Piece,15,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,230,164,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Roasted Peanuts 300gm.</li>
+  <li>Product Type: Roasted Peanuts.</li>
+  <li>Net Weight: 300gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Organic.</li>
+  <li>It helps to improve hair, skin, brain.</li>
+</ul>",,,,,,
+nafisfood,Premium Roasted Salted Peanuts 100gm,Piece,16,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,110,74,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Roasted Salted Peanuts 100g - RSP003.</li>
+  <li>Brand: Nafis Food.</li>
+  <li>Net Weight: 100g</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Organic &amp; Delicious.</li>
+  <li>It helps to improve hair, skin, brain and sexuality.</li>
+</ul>",,,,,,
+nafisfood,Premium Roasted Salted Peanuts 150gm,Piece,17,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,135,103,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Roasted Salted Peanuts 150gm.</li>
+  <li>Product Type: Roasted Salted Peanuts.</li>
+  <li>Net Weight: 150gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Organic.</li>
+  <li>It helps to improve hair, skin, brain.</li>
+</ul>",,,,,,
+nafisfood,Premium Roasted Salted Peanuts 300gm,Piece,18,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,250,189,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Premium Roasted Salted Peanuts 300gm - RSP002.</li>
+  <li>Product Type: Peanuts.</li>
+  <li>Brand: Nafis Food.</li>
+  <li>Weight: 300gm.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Ready to use.</li>
+  <li>It is helps to improve hair, skin, brain and sexuality etc.</li>
+  <li>Origin: Bangladesh.</li>
+</ul>",,,,,,
+nafisfood,Peanut Butter (Creamy) 100gm,Piece,19,nafis-food,groceries,cooking-items,ghee,100,74,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: Nafis Food.</li>
+  <li>Net Weight: 100g.</li>
+  <li>Flavor: Creamy.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh &amp; Delicious.</li>
+  <li>Halal &amp; Healthy.</li>
+  <li>Ready to Eat and Use.</li>
+  <li>Made with 100% Roasted Peanuts.</li>
+  <li>High in Protein, Gluten Free, Low Sodium.</li>
+  <li>Store in a Cool, Dry &amp; Hygienic Place.</li>
+  <li>No Preservatives.</li>
+</ul>",,,,,,
+nafisfood,Peanut Butter (Creamy) 215gm,Piece,20,nafis-food,groceries,cooking-items,ghee,210,148,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Peanut Butter (Creamy). It is made with 100% Roasted Peanuts. You can use it as a dip or spreading onto waffles or toast. This Peanut Butter is choice for you. Every bite of roasted peanut flavor will leave you longing for more. Made without any preservatives. It can be enjoyed straight from the jar, on top of your favorite ice creams and frozen yogurts, or as a base for your baking ideas. Whichever way you choose to have it, we&rsquo;re sure you will love the smooth taste of this classic.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Peanut Butter (Creamy) 450gm,Piece,21,nafis-food,groceries,cooking-items,ghee,420,295,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: Nafis Food.</li>
+  <li>Net Weight: 450gm.</li>
+  <li>Flavor: Creamy.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh &amp; Delicious.</li>
+  <li>Halal &amp; Healthy.</li>
+  <li>Ready to Eat and Use.</li>
+  <li>Made with 100% Roasted Peanuts.</li>
+  <li>High in Protein, Gluten Free, Low Sodium.</li>
+  <li>Store in a Cool, Dry &amp; Hygienic Place.</li>
+  <li>No Preservatives.</li>
+</ul>",,,,,,
+nafisfood,Peanut Butter (Crunchy) 100gm,Piece,22,nafis-food,groceries,cooking-items,ghee,110,78,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: Nafis Food</li>
+  <li>Product Type: Butter Crunchy.</li>
+  <li>Weight: 100 gm.</li>
+  <li>Flavor: Crunchy</li>
+  <li>Pure, Fresh &amp; Delicious.</li>
+  <li>Healthy &amp; Halal.</li>
+  <li>Made with 100% Roasted Peanuts.</li>
+  <li>High in Protein, Gluten Free, Low Sodium.</li>
+  <li>Store in a Cool, Dry &amp; Hygienic Place.</li>
+  <li>No Preservatives.</li>
+</ul>",,,,,,
+nafisfood,Peanut Butter (Crunchy) 215gm,Piece,23,nafis-food,groceries,cooking-items,ghee,230,156,0,,,,,,5,,,,50,1,,active,"<div>
+<div>
+<div>
+<p><strong>Nafis Food Peanut Butter (Crunchy) 100g / 215gm / 450gm</strong></p>
+<p><br />
+</p>
+<p>Nafis Food is selling premium quality Peanut Butter (Creamy). It is made with 100% Roasted Peanuts. You can use it as a dip or spreading onto waffles or toast. This Peanut Butter is choice for you. Every bite of roasted peanut flavor will leave you longing for more. Made without any preservatives. It can be enjoyed straight from the jar, on top of your favorite ice creams and frozen yogurts, or as a base for your baking ideas. Whichever way you choose to have it, we&rsquo;re sure you will love the smooth taste of this classic.</p>
+</div>
+</div>
+</div>
+<table>
+<tbody>
+<tr>
+<td>Brand</td>
+<td>Nafis Food</td>
+</tr>
+<tr>
+<td>Product code</td>
+<td>10010</td>
+</tr>
+<tr>
+<td>Country</td>
+<td>Bangladesh</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td> 215 g</td>
+</tr>
+<tr>
+<td>Flavour</td>
+<td>crunchy</td>
+</tr>
+</tbody>
+</table> ",,,,,,
+nafisfood,Peanut Butter (Crunchy) 450gm,Piece,24,nafis-food,groceries,cooking-items,ghee,460,312,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: Nafis Food.</li>
+  <li>Product Type: Peanut Butter.</li>
+  <li>Weight: 450g.</li>
+  <li>Flavor: Creamy.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Type: Vegetarian.</li>
+  <li>Ready to Eat and Use.</li>
+  <li>Made with 100% Roasted Peanuts.</li>
+  <li>High in Protein, Gluten Free, Low Sodium.</li>
+  <li>Store in Cool, Dry &amp; Hygienic Place.</li>
+  <li>No Preservatives.</li>
+</ul>",,,,,,
+nafisfood,Premium Black Cumin 100gm,Piece,25,nafis-food,groceries,cooking-items,spices,60,49,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Black Cumin - 100gm.</li>
+  <li>Product Type: Black Cumin.</li>
+  <li>Weight: 100gm.</li>
+  <li>A good premium quality product.</li>
+</ul>",,,,,,
+nafisfood,Premium Black Cumin 200gm,Piece,26,nafis-food,groceries,cooking-items,spices,110,90,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>*Brand: Nafis Food</li>
+  <li>Product Name: Black Cumin</li>
+  <li>*Net Wt: 200gm</li>
+  <li>*Premium Quality</li>
+  <li>*Pure &amp; Fresh</li>
+  <li>*Delicious</li>
+  <li>*Ready to use</li>
+</ul>",,,,,,
+nafisfood,Organic Cumin 100gm,Piece,27,nafis-food,groceries,cooking-items,spices,80,62,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin.</li>
+  <li>Net Weight: 100gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Organic Cumin 200gm,Piece,28,nafis-food,groceries,cooking-items,spices,150,115,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin.</li>
+  <li>Net Weight: 200gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Irani Shahi Cumin 100gm,Piece,29,nafis-food,groceries,cooking-items,spices,90,74,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin powder.</li>
+  <li>Net Weight: 100gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Irani Shahi Cumin 200gm,Piece,30,nafis-food,groceries,cooking-items,spices,170,139,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin powder.</li>
+  <li>Net Weight: 200gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Organic Cumin Powder 100gm,Piece,31,nafis-food,groceries,cooking-items,spices,90,74,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin powder.</li>
+  <li>Net Weight: 100gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Organic Cumin Powder 200gm,Piece,32,nafis-food,groceries,cooking-items,spices,170,139,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Net Wt: 200gm</li>
+  <li>Brand: Nafis Food</li>
+  <li>Origin: Iran</li>
+  <li>Premium Quality</li>
+  <li>Organic</li>
+  <li>Pure &amp; Fresh</li>
+  <li>Ready to use</li>
+  <li>Ensures fresh aroma of organic cumin</li>
+  <li>Maintains real taste in dishes</li>
+  <li>It is helps to improve hair, skin, heart, kidney and cancer</li>
+  <li>Vitamin E</li>
+  <li>Etc</li>
+</ul>",,,,,,
+nafisfood,Irani Shahi Cumin Powder 100gm,Piece,33,nafis-food,groceries,cooking-items,spices,100,82,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin powder.</li>
+  <li>Net Weight: 100gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Irani Shahi Cumin Powder 200gm,Piece,34,nafis-food,groceries,cooking-items,spices,190,156,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin powder.</li>
+  <li>Net Weight: 200gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium quality.</li>
+  <li>Pure &amp; fresh.</li>
+  <li>Ensures fresh aroma of organic cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables and other dishes.</li>
+  <li>It helps to improve hair, skin, heart, kidney and cancer.</li>
+  <li>Vitamin E.</li>
+</ul>",,,,,,
+nafisfood,Roasted Cumin Powder 100gm,Piece,35,nafis-food,groceries,cooking-items,spices,110,90,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Brand: Nafis Food</li>
+  <li>Origin: Iran</li>
+  <li>Net Wt: 100gm</li>
+  <li>Premium Quality</li>
+  <li>Pure &amp; Fresh</li>
+  <li>Organic</li>
+  <li>Ready to use</li>
+  <li>Delicious</li>
+  <li>Ensures fresh aroma of organic irani shahi cumin</li>
+  <li>Maintains real taste in dishes</li>
+  <li>It is helps to improve hair, skin, heart, kidney and cancer</li>
+  <li>Vitamin E</li>
+  <li>Etc</li>
+</ul>",,,,,,
+nafisfood,Roasted Cumin Powder 200gm,Piece,36,nafis-food,groceries,cooking-items,spices,210,164,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Cumin Powder.</li>
+  <li>Weight: 200gm.</li>
+  <li>Origin: Iran.</li>
+  <li>Premium Quantity.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Vitamin E.</li>
+  <li>Delicious and Organic.</li>
+  <li>Ensures fresh aroma of organic Irani shahi cumin.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Perfect for fish, chicken, meat, beef, vegetables, and other dishes.</li>
+  <li>Ready to use.</li>
+  <li>It helps to improve hair, skin, heart, kidney, and cancer.</li>
+</ul>",,,,,,
+nafisfood,Premium Red Chili Flakes 100gm,Piece,37,nafis-food,groceries,cooking-items,spices,120,82,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Chili Flakes.</li>
+  <li>Weight: 100gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Ready to use.</li>
+  <li>Best tasting crushed red chili to enhance the flavor and aroma of your recipe.</li>
+  <li>Premium grade spice with industry-leading quality standards.</li>
+</ul>",,,,,,
+nafisfood,Premium Red Chili Flakes 175gm,Piece,38,nafis-food,groceries,cooking-items,spices,200,139,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li data-spm-anchor-id=""a2a0e.pdp.product_detail.i0.5c82bmYFbmYFFm"">Nafis Food is selling premium quality organic red chili flakes. It is a delicious, flavorful and a great value, 100%cleaned. Crushed red chili flakes is a must in every kitchen for pizza, soup, sauce and many dishes, etc</li>
+</ul>",,,,,,
+nafisfood,Garlic Paste 225gm,Piece,39,nafis-food,groceries,cooking-items,ready-mix,120,98,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Ready to use.</li>
+  <li>Net weight: 225 gm.</li>
+  <li>Use it while cooking.</li>
+  <li>Premium quality.</li>
+</ul>",,,,,,
+nafisfood,Garlic Paste 400gm,Piece,40,nafis-food,groceries,cooking-items,ready-mix,200,164,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Garlic Paste</li>
+    <li>Net Weight: 400gm</li>
+    <li>Brand: Nafis Food</li>
+    <li>Origin: Bangladesh</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious</li>
+    <li>Organic</li>
+    <li>Ready to use</li>
+    <li>Ensures fresh aroma of organic garlic</li>
+    <li>Maintains real taste in dishes</li>
+    <li>Etc</li>
+  </ul>
+</div>
+<div>Nafis Food is selling pure and fresh premium quality organic garlic paste. It is one of major spice to cook delicious dishes.</div>",,,,,,
+nafisfood,Ginger Paste 225gm,Piece,41,nafis-food,groceries,cooking-items,ready-mix,160,123,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Ginger &amp; Garlic Mixed Paste.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Ready to use.</li>
+  <li>Net weight: 225 gm.</li>
+  <li>Use it while cooking.</li>
+  <li>Premium quality.</li>
+</ul>",,,,,,
+nafisfood,Ginger Paste 400gm,Piece,42,nafis-food,groceries,cooking-items,ready-mix,270,213,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Ginger paste.</li>
+  <li>Net Weight: 400gm.</li>
+  <li>Flavor: Ginger.</li>
+  <li>Premium Quality.</li>
+  <li>Organic.</li>
+  <li>Ready to use.</li>
+  <li>Ensures fresh aroma of organic ginger.</li>
+  <li>Maintains real taste in dishes.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>It is one of the major spice to cook delicious dishes.</li>
+</ul>",,,,,,
+nafisfood,Mixed (Garlic+Ginger) Paste 225gm,Piece,43,nafis-food,groceries,cooking-items,ready-mix,160,123,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Ginger &amp; Garlic Mixed Paste.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Ready to use.</li>
+  <li>Net weight: 225 gm.</li>
+  <li>Use it while cooking.</li>
+  <li>Premium quality.</li>
+</ul>",,,,,,
+nafisfood,Mixed (Garlic+Ginger) Paste 400gm,Piece,44,nafis-food,groceries,cooking-items,ready-mix,270,213,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Mixed (Garlic+Ginger) Paste</li>
+    <li>Net Weight: 400gm</li>
+    <li>Brand: Nafis Food</li>
+    <li>Origin: Bangladesh</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious</li>
+    <li>Organic</li>
+    <li>Ready to use</li>
+    <li>Ensures fresh aroma of organic garlic &amp; ginger</li>
+    <li>Maintains real taste in dishes</li>
+    <li>Etc</li>
+  </ul>
+</div>
+<div>Nafis Food is selling pure and fresh premium quality organic garlic+ginger paste. It is one of major spice to cook deliciousdishes.</div>",,,,,,
+nafisfood,Green Chili Paste 225gm,Piece,45,nafis-food,groceries,cooking-items,ready-mix,90,66,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Type: Green Chili Paste.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious.</li>
+  <li>Ready to use.</li>
+  <li>Net weight: 225 gm.</li>
+  <li>Use it while cooking.</li>
+  <li>Premium quality.</li>
+</ul>",,,,,,
+nafisfood,Green Chili Paste 400gm,Piece,46,nafis-food,groceries,cooking-items,ready-mix,150,115,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Name: Green Chili Paste</li>
+  <li>Net Weight: 400gm</li>
+  <li>Brand: Nafis Food</li>
+  <li>Origin: Bangladesh</li>
+  <li>Premium Quality</li>
+  <li>Pure &amp; Fresh</li>
+  <li>Delicious</li>
+  <li>Organic</li>
+  <li>Ready to use</li>
+  <li>Ensures fresh aroma of organic green chili</li>
+  <li>Maintains real taste in dishes</li>
+  <li>Etc</li>
+</ul>",,,,,,
+nafisfood,Premium Isabgol (Psyllium Husk) 100gm,Piece,47,nafis-food,groceries,beverages,syrups-and-powder-drin,140,107,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Product Name: Premium Isabgol (Psyllium Husk)</li>
+  <li>Net Wt: 100gm</li>
+  <li>Brand: Nafis Food</li>
+  <li>Premium Quality</li>
+  <li>Pure &amp; Fresh</li>
+  <li>Organic</li>
+  <li>Soluble fiber</li>
+  <li>Excellence source of fiber</li>
+  <li>Execellent source of natural dietary fiber</li>
+  <li>Weight loss</li>
+  <li>No flavor</li>
+  <li>Etc</li>
+</ul>",,,,,,
+nafisfood,Premium Isabgol (Psyllium Husk) 175gm,Piece,48,nafis-food,groceries,beverages,syrups-and-powder-drin,235,180,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Premium Isabgol (Psyllium Husk)</li>
+    <li>Net Weight: 175gm</li>
+    <li>Brand: Nafis Food</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Organic</li>
+    <li>Soluble fiber</li>
+    <li>Excellent source of fiber</li>
+    <li>Vigorously mix 1-2 level table spoons daily into at least 12 oz of water or juice and consume immediately</li>
+    <li>Excellent source of natural dietary fiber elimination, promote regularly heart healthy</li>
+    <li>It helps to improve digestive health, regularly a healthy weight and most importantly a healthy heart</li>
+    <li>Dietary supplements</li>
+    <li>Lower cholesterol</li>
+    <li>Weight loss</li>
+    <li>No flavors</li>
+    <li>Sugar free</li>
+    <li>Great for cooking and baking</li>
+  </ul>
+</div>
+<div>Nafis Food is selling organic Premium Isabgol(Psyllium Husk). Psyllium is made from the husks and seed coats of plantagoseeds. Since psyllium is a dietary supplement used mainly for its soluble fibercontent.</div>",,,,,,
+nafisfood,Bread Crumbs 100gm,Piece,49,nafis-food,groceries,beverages,syrups-and-powder-drin,100,74,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>*Brand: Nafis Food</li>
+    <li>Product Name: Bread Crumbs</li>
+    <li>*Net Wt: 100gm</li>
+    <li>*Premium Quality</li>
+    <li>*Pure &amp; Fresh</li>
+    <li>*Delicious</li>
+    <li>*Ready to use</li>
+  </ul>
+</div>
+<div>Nafis Food is selling premium quality bread crumbs. You can use it to cook many sort of fried chicken, nugget, sausage and other fast foods.</div>",,,,,,
+nafisfood,Bread Crumbs 175gm,Piece,50,nafis-food,groceries,beverages,syrups-and-powder-drin,165,123,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Bread Crumbs</li>
+    <li>Net Wt: 175gm</li>
+    <li>Brand: Nafis Food</li>
+    <li>Color: Orange</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious</li>
+    <li>Ready to use</li>
+    <li>Healthy</li>
+    <li>Maintains real taste in fried chicken, nuggets, sausage and other foods</li>
+    <li>Etc</li>
+  </ul>
+</div>
+<div>Nafis Food is selling premium quality breadcrumbs. You can use it to cook many sort of fried chicken, nugget, sausage andother fast foods.</div>",,,,,,
+nafisfood,Bread Crumbs 500gm,Piece,51,nafis-food,groceries,beverages,syrups-and-powder-drin,400,312,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Bread Crumbs</li>
+    <li>Net Wt: 500gm</li>
+    <li>Brand: Nafis Food</li>
+    <li>Color: Orange</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious</li>
+    <li>Ready to use</li>
+    <li>Healthy</li>
+    <li>Maintains real taste in fried chicken, nuggets, sausage and other foods</li>
+    <li>Etc</li>
+  </ul>
+</div>
+<div>Nafis Food is selling premium quality breadcrumbs. You can use it to cook many sort of fried chicken, nugget, sausage andother fast foods.</div>",,,,,,
+nafisfood,Bread Crumbs 1kg,Piece,52,nafis-food,groceries,beverages,syrups-and-powder-drin,720,590,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Bread Crumbs</li>
+    <li>Net Wt:1kg</li>
+    <li>Brand: Nafis Food</li>
+    <li>Color: Orange</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious</li>
+    <li>Ready to use</li>
+    <li>Healthy</li>
+    <li>Maintains real taste in fried chicken, nuggets, sausage and other foods</li>
+    <li>Etc</li>
+  </ul>
+</div>
+<div>Nafis Food is selling premium quality breadcrumbs. You can use it to cook many sort of fried chicken, nugget, sausage andother fast foods.</div>",,,,,,
+nafisfood,Organic Loitta Shutki 100gm,Piece,53,nafis-food,groceries,snacks-and-instant-food,canned-food,130,98,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Loitta Shutki 100gm.</li>
+  <li>Product Type: Kechki Shutki.</li>
+  <li>Weight: 100gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious and Nutrition.</li>
+  <li>Healthy and Exotic Delicacy.</li>
+  <li>Ready to use.</li>
+</ul>",,,,,,
+nafisfood,Organic Loitta Shutki 250gm,Piece,54,nafis-food,groceries,snacks-and-instant-food,canned-food,315,238,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Loitta Shutki 250gm.</li>
+  <li>Product Type: Kechki Shutki.</li>
+  <li>Weight: 100gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious and Nutrition.</li>
+  <li>Healthy and Exotic Delicacy.</li>
+  <li>Ready to use.</li>
+</ul>",,,,,,
+nafisfood,Organic Kechki Shutki 100gm,Piece,55,nafis-food,groceries,snacks-and-instant-food,canned-food,130,103,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Kechki Shutki 100gm.</li>
+  <li>Product Type: Kechki Shutki.</li>
+  <li>Weight: 100gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious and Nutrition.</li>
+  <li>Healthy and Exotic Delicacy.</li>
+  <li>Ready to use.</li>
+</ul>",,,,,,
+nafisfood,Organic Mola Shutki 100gm,Piece,56,nafis-food,groceries,snacks-and-instant-food,canned-food,130,103,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Mola Shutki 100gm.</li>
+  <li>Product Type: Mola Shutki.</li>
+  <li>Weight: 100gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious and Nutrition.</li>
+  <li>Healthy and Exotic Delicacy.</li>
+  <li>Ready to use.</li>
+</ul>",,,,,,
+nafisfood,Organic Faissa Shutki 100gm,Piece,57,nafis-food,groceries,snacks-and-instant-food,canned-food,140,107,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Faissa Shutki 100gm.</li>
+  <li>Product Type: Faissa Shutki.</li>
+  <li>Weight: 100gm.</li>
+  <li>Origin: Bangladesh.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious and Nutrition.</li>
+  <li>Healthy and Exotic Delicacy.</li>
+  <li>Ready to use.</li>
+</ul>",,,,,,
+nafisfood,Organic Chingri Shutki 100gm,Piece,58,nafis-food,groceries,snacks-and-instant-food,canned-food,130,103,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Organic Chingri Shutki 100gm.</li>
+  <li>Product Type: Chingri Shutki.</li>
+  <li>Weight: 100gm.</li>
+  <li>Premium Quality.</li>
+  <li>Pure &amp; Fresh.</li>
+  <li>Delicious and Nutrition.</li>
+  <li>Healthy and Exotic Delicacy.</li>
+  <li>Ready to use.</li>
+  <li>Origin: Bangladesh.</li>
+</ul>",,,,,,
+nafisfood,Organic Churi Shutki 100gm,Piece,59,nafis-food,groceries,snacks-and-instant-food,canned-food,190,131,0,,,,,,5,,,,50,1,,active,"<div>
+  <ul>
+    <li>Product Name: Churi Shutki</li>
+    <li>Net Weight: 100gm</li>
+    <li>Brand: Nafis Food</li>
+    <li>Origin: Bangladesh</li>
+    <li>Premium Quality</li>
+    <li>Pure &amp; Fresh</li>
+    <li>Delicious and Nutrition</li>
+    <li>Organic</li>
+    <li>Healthy and Exotic Delicacy</li>
+    <li>Ready to use</li>
+  </ul>
+</div>
+<div>Nafis Food is selling premium quality organic Churi Shutki. It is popular for Asian Staple Food in Indian, Bengali, Chinese, Thai,Myanmar&rsquo;s various foods. Store dry and clean storage. Soak in hot water for 15 minutes before using.</div>",,,,,,
+nafisfood,Organic Churi Shutki 250gm,Piece,60,nafis-food,groceries,snacks-and-instant-food,canned-food,460,320,0,,,,,,5,,,,50,1,,active,"<p><strong>Organic ocean Churi 250gm Dry Fish 270tk only - Organic and 100% Pure</strong></p>
+<p>Delivery: All over the Country</p>
+<p>Mentioned Price is Per Kg</p>
+<p>100% ভেজাল ও বিষাক্ত ডিডিটি মুক্ত শুটকি</p>
+<p>কক্সবাজারে আমাদের নিজস্ব তত্বাবধানে শুটকি তৈরী</p>
+<p>সরাসরি কক্সবাজার থেকেই ডেলিভারি দিচ্ছি সারা বাংলাদেশে</p>
+<p>কে.জি ্র প্রতি দাম দেওয়া হয়েছে</p>
+<p><strong>Why is the Organic Dry Fish best for you?</strong></p>
+<ol>
+  <li>Organic Dry Fishes are fresh and healthy </li>
+  <li>Fishes are properly cleaned before drying </li>
+  <li>Highly enriched with protein (60% -65%)</li>
+  <li>Low fat – great for health (5% to 8%) </li>
+  <li>High quantity of healthy minerals </li>
+  <li>No acidity after consumption, safe for all</li>
+  <li>Free from preservatives and insecticides </li>
+  <li>Regularly served at WFP (World Food Program) </li>
+  <li>Higher in price, but healthiest organic dry fish in the market. </li>
+</ol>
+<p><br />
+  <br />
+  As Bangladesh is a country of rivers, dried fish is very popular food in Bangladesh. Fish is dried for longer preservation and as dried fish contains more protein, vitamins as well as minerals than fresh fish which are necessary for good health - eating fresh dried fish is highly recommended by health advisors. Dried fish contains less amount of calories, saturated fat and cholesterol. So, consuming dried fish is good for the heart and different issues related to high blood pressure.<br />
+  <br />
+  <strong>Why </strong>B Bazar<strong> Organic Churi dry Fish?</strong></p>
+<ol>
+  <li>Directly collected from Cox's Bazar</li>
+  <li>Organically produced with perfection</li>
+  <li>No chemicals used to dry the fish</li>
+  <li>Free of DDT and insecticides</li>
+  <li>100% Safe and fresh</li>
+</ol>",,,,,,
+nafisfood,Frozen Coated French Fries 250gm,Piece,61,nafis-food,groceries,snacks-and-instant-food,canned-food,60,41,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Frozen Coated French Fries. It is ready to cook. You will get real taste of French Fries. Very easy to prepare. It saves your valuable time. Just tear off the packet and put it on the griddle and wait for a few minutes. Then it will be ready to serve.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Frozen Coated French Fries 500gm,Piece,62,nafis-food,groceries,snacks-and-instant-food,canned-food,110,82,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Frozen Coated French Fries. It is ready to cook. You will get real taste of French Fries. Very easy to prepare. It saves your valuable time. Just tear off the packet and put it on the griddle and wait for a few minutes. Then it will be ready to serve.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Frozen Coated French Fries 1kg,Piece,63,nafis-food,groceries,snacks-and-instant-food,canned-food,200,155,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Frozen Coated French Fries. It is ready to cook. You will get real taste of French Fries. Very easy to prepare. It saves your valuable time. Just tear off the packet and put it on the griddle and wait for a few minutes. Then it will be ready to serve.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Frozen Coated French Fries (Masala) 250gm,Piece,64,nafis-food,groceries,snacks-and-instant-food,canned-food,70,49,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Frozen Coated French Fries. It is ready to cook. You will get real taste of French Fries. Very easy to prepare. It saves your valuable time. Just tear off the packet and put it on the griddle and wait for a few minutes. Then it will be ready to serve.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Frozen Coated French Fries (Masala) 500gm,Piece,65,nafis-food,groceries,snacks-and-instant-food,canned-food,120,90,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Frozen Coated French Fries. It is ready to cook. You will get real taste of French Fries. Very easy to prepare. It saves your valuable time. Just tear off the packet and put it on the griddle and wait for a few minutes. Then it will be ready to serve.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Frozen Coated French Fries (Masala) 1kg,Piece,66,nafis-food,groceries,snacks-and-instant-food,canned-food,220,164,0,,,,,,5,,,,50,1,,active,"<div>
+  <div>
+    <div>
+      <p>Nafis Food is selling premium quality Frozen Coated French Fries. It is ready to cook. You will get real taste of French Fries. Very easy to prepare. It saves your valuable time. Just tear off the packet and put it on the griddle and wait for a few minutes. Then it will be ready to serve.</p>
+    </div>
+  </div>
+</div>
+<div></div>
+<div></div>
+<br />",,,,,,
+nafisfood,Combo Pack-Nuts-CPN001,Piece,67,nafis-food,groceries,snacks-and-instant-food,popcorn-and-nuts,2100,1599,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Combo Pack 1.</li>
+  <li>Product Included: Organic Almond - 500gm, Premium Quality Cashew Nuts - 500gm, &amp; Premium Quality Salted Cashew Nuts - 500gm</li>
+</ul>",,,,,,
+nafisfood,Combo Pack-Spices-CPS002,Piece,68,nafis-food,groceries,cooking-items,spices,800,615,0,,,,,,5,,,,50,1,,active,"<p>• Product Name: Combo Pack-Spices<br />
+  • Net Weight: 1.275 kg<br />
+  • Brand: Nafis Food<br />
+  • Premium Quality<br />
+  • Pure &amp; Fresh<br />
+  • Delicious<br />
+  • Organic<br />
+  • Ready to use<br />
+  • Products Included: Organic Cumin (Jeera)-200g+Red Chili Flakes-175g+Garlic Paste-400g+Ginger Paste-400g+Free Black Cumin (Kalojira)-100g</p>
+<p>Nafis Food is a food manufacturing and selling company. We ensure that all sorts of our products are maintained premium quality. We are selling a Combo Pack of 4 Types of Spices + Free Black Cumin (Kalojira)-100g.</p>",,,,,,
+nafisfood,Combo Pack-Shutki-CPSH003,Piece,69,nafis-food,groceries,snacks-and-instant-food,canned-food,1150,902,0,,,,,,5,,,,50,1,,active,"<ul>
+  <li>Combo Pack – NF3 (Free Cumin - 100gm).</li>
+  <li>Product Included: Organic Loitta Fish 250gm, Organic Kechki Shutki 100gm, Organic Mola Shutki 100gm, Organic Fried Shrimp (Small) 100gm, and Churi Shutki 250gm.</li>
+</ul>",,,,,,
